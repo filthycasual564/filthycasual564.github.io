@@ -4624,7 +4624,7 @@
             "card_name": "W uncommon Stalwart Northmen",
             "color": "W",
             "rarity": "common",
-            "type": "Creature \u2013 Human",
+            "type": "Creature \u2013 Human Warrior",
             "number": 41,
             "color_identity": "W",
             "cost": "{3}{W}",
@@ -8991,7 +8991,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "",
+            "notes": "!related The Gray Witch",
             "image_type": "jpg",
             "v_mana": ""
         },
@@ -9411,7 +9411,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "",
+            "notes": "!related Crysden, New Spark !tokens Burst Elemental",
             "image_type": "jpg",
             "v_mana": ""
         },
@@ -10343,7 +10343,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tokens Cataclysm, Dark Spark",
+            "notes": "!related Cataclysm, Dark Spark",
             "image_type": "jpg",
             "v_mana": ""
         },
@@ -10494,7 +10494,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!related Burst Elemental",
+            "notes": "!related Burst Elemental;Crysden Mallus",
             "image_type": "jpg",
             "v_mana": ""
         },

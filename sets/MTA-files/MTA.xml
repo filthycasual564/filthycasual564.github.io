@@ -4970,7 +4970,7 @@ This land enters tapped.
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
-				<type>Creature — Human</type>
+				<type>Creature — Human Warrior</type>
 				<maintype>Creature</maintype>
 				<manacost>3W</manacost>
 				<cmc>4</cmc>
@@ -9706,6 +9706,7 @@ Sacrifice this creature: Up to X different target creatures each gain indestruct
 			</prop>
 			<tablerow>1</tablerow>
 			<related attach="transform">The Black Pool</related>
+			<reverse-related>The Gray Witch</reverse-related>
 		</card>
 		<card>
 			<name>The Black Pool</name>
@@ -9724,6 +9725,7 @@ Sacrifice this creature: Up to X different target creatures each gain indestruct
 			</prop>
 			<tablerow>0</tablerow>
 			<related attach="transform">Cataclysm, Dark Spark</related>
+			<reverse-related>The Gray Witch</reverse-related>
 		</card>
 		<card>
 			<name>Permanence Transference</name>
@@ -10167,6 +10169,7 @@ Whenever Crysden deals combat damage, you may put that many loyalty counters on 
 			</prop>
 			<tablerow>2</tablerow>
 			<related attach="transform">Mountain</related>
+			<reverse-related>Crysden, New Spark !tokens Burst Elemental</reverse-related>
 		</card>
 		<card>
 			<name>Mountain</name>
@@ -10184,6 +10187,7 @@ Whenever Crysden deals combat damage, you may put that many loyalty counters on 
 			</prop>
 			<tablerow>0</tablerow>
 			<related attach="transform">Crysden Mallus</related>
+			<reverse-related>Crysden, New Spark !tokens Burst Elemental</reverse-related>
 		</card>
 		<card>
 			<name>Reckless Challenger</name>
@@ -11141,8 +11145,8 @@ Draw a card.
 				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
-			<related>Cataclysm, Dark Spark</related>
 			<related attach="transform">Mire</related>
+			<reverse-related>Cataclysm, Dark Spark</reverse-related>
 		</card>
 		<card>
 			<name>Mire</name>
@@ -11161,8 +11165,8 @@ This land enters tapped.
 				<coloridentity>UB</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related>Cataclysm, Dark Spark</related>
 			<related attach="transform">The Gray Witch</related>
+			<reverse-related>Cataclysm, Dark Spark</reverse-related>
 		</card>
 		<card>
 			<name>Help I Dont Know Math MTA</name>
@@ -11300,6 +11304,7 @@ Transform target permanent.
 			<tablerow>1</tablerow>
 			<related attach="transform">City of Runaways</related>
 			<reverse-related>Burst Elemental</reverse-related>
+			<reverse-related>Crysden Mallus</reverse-related>
 		</card>
 		<card>
 			<name>City of Runaways</name>
@@ -11319,6 +11324,7 @@ Transform target permanent.
 			<tablerow>0</tablerow>
 			<related attach="transform">Crysden, New Spark</related>
 			<reverse-related>Burst Elemental</reverse-related>
+			<reverse-related>Crysden Mallus</reverse-related>
 		</card>
 		<card>
 			<name>Giant Elemental MTA</name>

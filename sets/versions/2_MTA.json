@@ -4367,7 +4367,7 @@
             "card_name": "W uncommon Stalwart Northmen",
             "color": "W",
             "rarity": "common",
-            "type": "Creature \u2014 Human",
+            "type": "Creature \u2014 Human Warrior",
             "number": 41,
             "color_identity": "W",
             "cost": "{3}{W}",
@@ -8486,7 +8486,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!related The Gray Witch"
         },
         {
             "card_name": "Permanence Transference",
@@ -8882,7 +8882,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!related Crysden, New Spark !tokens Burst Elemental"
         },
         {
             "card_name": "Reckless Challenger",
@@ -9758,7 +9758,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tokens Cataclysm, Dark Spark"
+            "notes": "!related Cataclysm, Dark Spark"
         },
         {
             "card_name": "Help I Dont Know Math",
@@ -9899,7 +9899,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!related Burst Elemental"
+            "notes": "!related Burst Elemental;Crysden Mallus"
         },
         {
             "card_name": "Giant Elemental",
