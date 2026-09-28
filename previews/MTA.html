@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/MTA-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>MTA visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/MTA-files/logo.png" />
+	<img class="preload-hidden" src="../sets/MTA-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/MTA"><img src="../sets/MTA-files/icon.png">Magic: The Apocalypse</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/MTA-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\266_back.jpg" alt="sets\MTA-files\img\266_front.jpg" id="MTA_266" data-flag="@XD" onclick="openSidebar('MTA_266',false)"><button class="flip-btn" onclick="imgFlip('MTA_266')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\200_back.jpg" alt="sets\MTA-files\img\200_front.jpg" id="MTA_200" data-flag="@XD" onclick="openSidebar('MTA_200',false)"><button class="flip-btn" onclick="imgFlip('MTA_200')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\263_back.jpg" alt="sets\MTA-files\img\263_front.jpg" id="MTA_263" data-flag="@XD" onclick="openSidebar('MTA_263',false)"><button class="flip-btn" onclick="imgFlip('MTA_263')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\268_back.jpg" alt="sets\MTA-files\img\268_front.jpg" id="MTA_268" data-flag="@XD" onclick="openSidebar('MTA_268',false)"><button class="flip-btn" onclick="imgFlip('MTA_268')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\260_back.jpg" alt="sets\MTA-files\img\260_front.jpg" id="MTA_260" data-flag="@XD" onclick="openSidebar('MTA_260',false)"><button class="flip-btn" onclick="imgFlip('MTA_260')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\126_back.jpg" alt="sets\MTA-files\img\126_front.jpg" id="MTA_126" data-flag="@XD" onclick="openSidebar('MTA_126',false)"><button class="flip-btn" onclick="imgFlip('MTA_126')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\265_back.jpg" alt="sets\MTA-files\img\265_front.jpg" id="MTA_265" data-flag="@XD" onclick="openSidebar('MTA_265',false)"><button class="flip-btn" onclick="imgFlip('MTA_265')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\223_back.jpg" alt="sets\MTA-files\img\223_front.jpg" id="MTA_223" data-flag="@XD" onclick="openSidebar('MTA_223',false)"><button class="flip-btn" onclick="imgFlip('MTA_223')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\269_back.jpg" alt="sets\MTA-files\img\269_front.jpg" id="MTA_269" data-flag="@XD" onclick="openSidebar('MTA_269',false)"><button class="flip-btn" onclick="imgFlip('MTA_269')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\261_back.jpg" alt="sets\MTA-files\img\261_front.jpg" id="MTA_261" data-flag="@XD" onclick="openSidebar('MTA_261',false)"><button class="flip-btn" onclick="imgFlip('MTA_261')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\196_back.jpg" alt="sets\MTA-files\img\196_front.jpg" id="MTA_196" data-flag="@XD" onclick="openSidebar('MTA_196',false)"><button class="flip-btn" onclick="imgFlip('MTA_196')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\264_back.jpg" alt="sets\MTA-files\img\264_front.jpg" id="MTA_264" data-flag="@XD" onclick="openSidebar('MTA_264',false)"><button class="flip-btn" onclick="imgFlip('MTA_264')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\262_back.jpg" alt="sets\MTA-files\img\262_front.jpg" id="MTA_262" data-flag="@XD" onclick="openSidebar('MTA_262',false)"><button class="flip-btn" onclick="imgFlip('MTA_262')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\270_back.jpg" alt="sets\MTA-files\img\270_front.jpg" id="MTA_270" data-flag="@XD" onclick="openSidebar('MTA_270',false)"><button class="flip-btn" onclick="imgFlip('MTA_270')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\187_back.jpg" alt="sets\MTA-files\img\187_front.jpg" id="MTA_187" data-flag="@XD" onclick="openSidebar('MTA_187',false)"><button class="flip-btn" onclick="imgFlip('MTA_187')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\192_back.jpg" alt="sets\MTA-files\img\192_front.jpg" id="MTA_192" data-flag="@XD" onclick="openSidebar('MTA_192',false)"><button class="flip-btn" onclick="imgFlip('MTA_192')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\118_back.jpg" alt="sets\MTA-files\img\118_front.jpg" id="MTA_118" data-flag="@XD" onclick="openSidebar('MTA_118',false)"><button class="flip-btn" onclick="imgFlip('MTA_118')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\271_back.jpg" alt="sets\MTA-files\img\271_front.jpg" id="MTA_271" data-flag="@XD" onclick="openSidebar('MTA_271',false)"><button class="flip-btn" onclick="imgFlip('MTA_271')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\199_back.jpg" alt="sets\MTA-files\img\199_front.jpg" id="MTA_199" data-flag="@XD" onclick="openSidebar('MTA_199',false)"><button class="flip-btn" onclick="imgFlip('MTA_199')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\198_back.jpg" alt="sets\MTA-files\img\198_front.jpg" id="MTA_198" data-flag="@XD" onclick="openSidebar('MTA_198',false)"><button class="flip-btn" onclick="imgFlip('MTA_198')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\189_back.jpg" alt="sets\MTA-files\img\189_front.jpg" id="MTA_189" data-flag="@XD" onclick="openSidebar('MTA_189',false)"><button class="flip-btn" onclick="imgFlip('MTA_189')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\121_back.jpg" alt="sets\MTA-files\img\121_front.jpg" id="MTA_121" data-flag="@XD" onclick="openSidebar('MTA_121',false)"><button class="flip-btn" onclick="imgFlip('MTA_121')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\193_back.jpg" alt="sets\MTA-files\img\193_front.jpg" id="MTA_193" data-flag="@XD" onclick="openSidebar('MTA_193',false)"><button class="flip-btn" onclick="imgFlip('MTA_193')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\58_back.jpg" alt="sets\MTA-files\img\58_front.jpg" id="MTA_58" data-flag="@XD" onclick="openSidebar('MTA_58',false)"><button class="flip-btn" onclick="imgFlip('MTA_58')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\253_back.jpg" alt="sets\MTA-files\img\253_front.jpg" id="MTA_253" data-flag="@XD" onclick="openSidebar('MTA_253',false)"><button class="flip-btn" onclick="imgFlip('MTA_253')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\251_back.jpg" alt="sets\MTA-files\img\251_front.jpg" id="MTA_251" data-flag="@XD" onclick="openSidebar('MTA_251',false)"><button class="flip-btn" onclick="imgFlip('MTA_251')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\309_back.jpg" alt="sets\MTA-files\img\309_front.jpg" id="MTA_309" data-flag="@XD" onclick="openSidebar('MTA_309',false)"><button class="flip-btn" onclick="imgFlip('MTA_309')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\186_back.jpg" alt="sets\MTA-files\img\186_front.jpg" id="MTA_186" data-flag="@XD" onclick="openSidebar('MTA_186',false)"><button class="flip-btn" onclick="imgFlip('MTA_186')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\142_back.jpg" alt="sets\MTA-files\img\142_front.jpg" id="MTA_142" data-flag="@XD" onclick="openSidebar('MTA_142',false)"><button class="flip-btn" onclick="imgFlip('MTA_142')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\147_back.jpg" alt="sets\MTA-files\img\147_front.jpg" id="MTA_147" data-flag="@XD" onclick="openSidebar('MTA_147',false)"><button class="flip-btn" onclick="imgFlip('MTA_147')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\181_back.jpg" alt="sets\MTA-files\img\181_front.jpg" id="MTA_181" data-flag="@XD" onclick="openSidebar('MTA_181',false)"><button class="flip-btn" onclick="imgFlip('MTA_181')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\122_back.jpg" alt="sets\MTA-files\img\122_front.jpg" id="MTA_122" data-flag="@XD" onclick="openSidebar('MTA_122',false)"><button class="flip-btn" onclick="imgFlip('MTA_122')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\113_back.jpg" alt="sets\MTA-files\img\113_front.jpg" id="MTA_113" data-flag="@XD" onclick="openSidebar('MTA_113',false)"><button class="flip-btn" onclick="imgFlip('MTA_113')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\137_back.jpg" alt="sets\MTA-files\img\137_front.jpg" id="MTA_137" data-flag="@XD" onclick="openSidebar('MTA_137',false)"><button class="flip-btn" onclick="imgFlip('MTA_137')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\152_back.jpg" alt="sets\MTA-files\img\152_front.jpg" id="MTA_152" data-flag="@XD" onclick="openSidebar('MTA_152',false)"><button class="flip-btn" onclick="imgFlip('MTA_152')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\120_back.jpg" alt="sets\MTA-files\img\120_front.jpg" id="MTA_120" data-flag="@XD" onclick="openSidebar('MTA_120',false)"><button class="flip-btn" onclick="imgFlip('MTA_120')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\123_back.jpg" alt="sets\MTA-files\img\123_front.jpg" id="MTA_123" data-flag="@XD" onclick="openSidebar('MTA_123',false)"><button class="flip-btn" onclick="imgFlip('MTA_123')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\106_back.jpg" alt="sets\MTA-files\img\106_front.jpg" id="MTA_106" data-flag="@XD" onclick="openSidebar('MTA_106',false)"><button class="flip-btn" onclick="imgFlip('MTA_106')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\135_back.jpg" alt="sets\MTA-files\img\135_front.jpg" id="MTA_135" data-flag="@XD" onclick="openSidebar('MTA_135',false)"><button class="flip-btn" onclick="imgFlip('MTA_135')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\237_back.jpg" alt="sets\MTA-files\img\237_front.jpg" id="MTA_237" data-flag="@XD" onclick="openSidebar('MTA_237',false)"><button class="flip-btn" onclick="imgFlip('MTA_237')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\130_back.jpg" alt="sets\MTA-files\img\130_front.jpg" id="MTA_130" data-flag="@XD" onclick="openSidebar('MTA_130',false)"><button class="flip-btn" onclick="imgFlip('MTA_130')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\104_back.jpg" alt="sets\MTA-files\img\104_front.jpg" id="MTA_104" data-flag="@XD" onclick="openSidebar('MTA_104',false)"><button class="flip-btn" onclick="imgFlip('MTA_104')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\111_back.jpg" alt="sets\MTA-files\img\111_front.jpg" id="MTA_111" data-flag="@XD" onclick="openSidebar('MTA_111',false)"><button class="flip-btn" onclick="imgFlip('MTA_111')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\209_back.jpg" alt="sets\MTA-files\img\209_front.jpg" id="MTA_209" data-flag="@XD" onclick="openSidebar('MTA_209',false)"><button class="flip-btn" onclick="imgFlip('MTA_209')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\146_back.jpg" alt="sets\MTA-files\img\146_front.jpg" id="MTA_146" data-flag="@XD" onclick="openSidebar('MTA_146',false)"><button class="flip-btn" onclick="imgFlip('MTA_146')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\128_back.jpg" alt="sets\MTA-files\img\128_front.jpg" id="MTA_128" data-flag="@XD" onclick="openSidebar('MTA_128',false)"><button class="flip-btn" onclick="imgFlip('MTA_128')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\124_back.jpg" alt="sets\MTA-files\img\124_front.jpg" id="MTA_124" data-flag="@XD" onclick="openSidebar('MTA_124',false)"><button class="flip-btn" onclick="imgFlip('MTA_124')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\108_back.jpg" alt="sets\MTA-files\img\108_front.jpg" id="MTA_108" data-flag="@XD" onclick="openSidebar('MTA_108',false)"><button class="flip-btn" onclick="imgFlip('MTA_108')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\143_back.jpg" alt="sets\MTA-files\img\143_front.jpg" id="MTA_143" data-flag="@XD" onclick="openSidebar('MTA_143',false)"><button class="flip-btn" onclick="imgFlip('MTA_143')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\255_back.jpg" alt="sets\MTA-files\img\255_front.jpg" id="MTA_255" data-flag="@XD" onclick="openSidebar('MTA_255',false)"><button class="flip-btn" onclick="imgFlip('MTA_255')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\119_back.jpg" alt="sets\MTA-files\img\119_front.jpg" id="MTA_119" data-flag="@XD" onclick="openSidebar('MTA_119',false)"><button class="flip-btn" onclick="imgFlip('MTA_119')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\22_back.jpg" alt="sets\MTA-files\img\22_front.jpg" id="MTA_22" data-flag="@XD" onclick="openSidebar('MTA_22',false)"><button class="flip-btn" onclick="imgFlip('MTA_22')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\233_back.jpg" alt="sets\MTA-files\img\233_front.jpg" id="MTA_233" data-flag="@XD" onclick="openSidebar('MTA_233',false)"><button class="flip-btn" onclick="imgFlip('MTA_233')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\151_back.jpg" alt="sets\MTA-files\img\151_front.jpg" id="MTA_151" data-flag="@XD" onclick="openSidebar('MTA_151',false)"><button class="flip-btn" onclick="imgFlip('MTA_151')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\148_back.jpg" alt="sets\MTA-files\img\148_front.jpg" id="MTA_148" data-flag="@XD" onclick="openSidebar('MTA_148',false)"><button class="flip-btn" onclick="imgFlip('MTA_148')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\133_back.jpg" alt="sets\MTA-files\img\133_front.jpg" id="MTA_133" data-flag="@XD" onclick="openSidebar('MTA_133',false)"><button class="flip-btn" onclick="imgFlip('MTA_133')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\116_back.jpg" alt="sets\MTA-files\img\116_front.jpg" id="MTA_116" data-flag="@XD" onclick="openSidebar('MTA_116',false)"><button class="flip-btn" onclick="imgFlip('MTA_116')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\308_back.jpg" alt="sets\MTA-files\img\308_front.jpg" id="MTA_308" data-flag="@XD" onclick="openSidebar('MTA_308',false)"><button class="flip-btn" onclick="imgFlip('MTA_308')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\105_back.jpg" alt="sets\MTA-files\img\105_front.jpg" id="MTA_105" data-flag="@XD" onclick="openSidebar('MTA_105',false)"><button class="flip-btn" onclick="imgFlip('MTA_105')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\154_back.jpg" alt="sets\MTA-files\img\154_front.jpg" id="MTA_154" data-flag="@XD" onclick="openSidebar('MTA_154',false)"><button class="flip-btn" onclick="imgFlip('MTA_154')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\254_back.jpg" alt="sets\MTA-files\img\254_front.jpg" id="MTA_254" data-flag="@XD" onclick="openSidebar('MTA_254',false)"><button class="flip-btn" onclick="imgFlip('MTA_254')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\127_back.jpg" alt="sets\MTA-files\img\127_front.jpg" id="MTA_127" data-flag="@XD" onclick="openSidebar('MTA_127',false)"><button class="flip-btn" onclick="imgFlip('MTA_127')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\114_back.jpg" alt="sets\MTA-files\img\114_front.jpg" id="MTA_114" data-flag="@XD" onclick="openSidebar('MTA_114',false)"><button class="flip-btn" onclick="imgFlip('MTA_114')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\138_back.jpg" alt="sets\MTA-files\img\138_front.jpg" id="MTA_138" data-flag="@XD" onclick="openSidebar('MTA_138',false)"><button class="flip-btn" onclick="imgFlip('MTA_138')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\150_back.jpg" alt="sets\MTA-files\img\150_front.jpg" id="MTA_150" data-flag="@XD" onclick="openSidebar('MTA_150',false)"><button class="flip-btn" onclick="imgFlip('MTA_150')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\102_back.jpg" alt="sets\MTA-files\img\102_front.jpg" id="MTA_102" data-flag="@XD" onclick="openSidebar('MTA_102',false)"><button class="flip-btn" onclick="imgFlip('MTA_102')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\117_back.jpg" alt="sets\MTA-files\img\117_front.jpg" id="MTA_117" data-flag="@XD" onclick="openSidebar('MTA_117',false)"><button class="flip-btn" onclick="imgFlip('MTA_117')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\110_back.jpg" alt="sets\MTA-files\img\110_front.jpg" id="MTA_110" data-flag="@XD" onclick="openSidebar('MTA_110',false)"><button class="flip-btn" onclick="imgFlip('MTA_110')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\48_back.jpg" alt="sets\MTA-files\img\48_front.jpg" id="MTA_48" data-flag="@XD" onclick="openSidebar('MTA_48',false)"><button class="flip-btn" onclick="imgFlip('MTA_48')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\153_back.jpg" alt="sets\MTA-files\img\153_front.jpg" id="MTA_153" data-flag="@XD" onclick="openSidebar('MTA_153',false)"><button class="flip-btn" onclick="imgFlip('MTA_153')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\9_back.jpg" alt="sets\MTA-files\img\9_front.jpg" id="MTA_9" data-flag="@XD" onclick="openSidebar('MTA_9',false)"><button class="flip-btn" onclick="imgFlip('MTA_9')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\129_back.jpg" alt="sets\MTA-files\img\129_front.jpg" id="MTA_129" data-flag="@XD" onclick="openSidebar('MTA_129',false)"><button class="flip-btn" onclick="imgFlip('MTA_129')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\115_back.jpg" alt="sets\MTA-files\img\115_front.jpg" id="MTA_115" data-flag="@XD" onclick="openSidebar('MTA_115',false)"><button class="flip-btn" onclick="imgFlip('MTA_115')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\136_back.jpg" alt="sets\MTA-files\img\136_front.jpg" id="MTA_136" data-flag="@XD" onclick="openSidebar('MTA_136',false)"><button class="flip-btn" onclick="imgFlip('MTA_136')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\145_back.jpg" alt="sets\MTA-files\img\145_front.jpg" id="MTA_145" data-flag="@XD" onclick="openSidebar('MTA_145',false)"><button class="flip-btn" onclick="imgFlip('MTA_145')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\267_back.jpg" alt="sets\MTA-files\img\267_front.jpg" id="MTA_267" data-flag="@XD" onclick="openSidebar('MTA_267',false)"><button class="flip-btn" onclick="imgFlip('MTA_267')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\35_back.jpg" alt="sets\MTA-files\img\35_front.jpg" id="MTA_35" data-flag="@XD" onclick="openSidebar('MTA_35',false)"><button class="flip-btn" onclick="imgFlip('MTA_35')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\252_back.jpg" alt="sets\MTA-files\img\252_front.jpg" id="MTA_252" data-flag="@XD" onclick="openSidebar('MTA_252',false)"><button class="flip-btn" onclick="imgFlip('MTA_252')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\140_back.jpg" alt="sets\MTA-files\img\140_front.jpg" id="MTA_140" data-flag="@XD" onclick="openSidebar('MTA_140',false)"><button class="flip-btn" onclick="imgFlip('MTA_140')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\103_back.jpg" alt="sets\MTA-files\img\103_front.jpg" id="MTA_103" data-flag="@XD" onclick="openSidebar('MTA_103',false)"><button class="flip-btn" onclick="imgFlip('MTA_103')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\125_back.jpg" alt="sets\MTA-files\img\125_front.jpg" id="MTA_125" data-flag="@XD" onclick="openSidebar('MTA_125',false)"><button class="flip-btn" onclick="imgFlip('MTA_125')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\23_back.jpg" alt="sets\MTA-files\img\23_front.jpg" id="MTA_23" data-flag="@XD" onclick="openSidebar('MTA_23',false)"><button class="flip-btn" onclick="imgFlip('MTA_23')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\107_back.jpg" alt="sets\MTA-files\img\107_front.jpg" id="MTA_107" data-flag="@XD" onclick="openSidebar('MTA_107',false)"><button class="flip-btn" onclick="imgFlip('MTA_107')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\141_back.jpg" alt="sets\MTA-files\img\141_front.jpg" id="MTA_141" data-flag="@XD" onclick="openSidebar('MTA_141',false)"><button class="flip-btn" onclick="imgFlip('MTA_141')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\67_back.jpg" alt="sets\MTA-files\img\67_front.jpg" id="MTA_67" data-flag="@XD" onclick="openSidebar('MTA_67',false)"><button class="flip-btn" onclick="imgFlip('MTA_67')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\20_back.jpg" alt="sets\MTA-files\img\20_front.jpg" id="MTA_20" data-flag="@XD" onclick="openSidebar('MTA_20',false)"><button class="flip-btn" onclick="imgFlip('MTA_20')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\211_back.jpg" alt="sets\MTA-files\img\211_front.jpg" id="MTA_211" data-flag="@XD" onclick="openSidebar('MTA_211',false)"><button class="flip-btn" onclick="imgFlip('MTA_211')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\109_back.jpg" alt="sets\MTA-files\img\109_front.jpg" id="MTA_109" data-flag="@XD" onclick="openSidebar('MTA_109',false)"><button class="flip-btn" onclick="imgFlip('MTA_109')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\47_back.jpg" alt="sets\MTA-files\img\47_front.jpg" id="MTA_47" data-flag="@XD" onclick="openSidebar('MTA_47',false)"><button class="flip-btn" onclick="imgFlip('MTA_47')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\61_back.jpg" alt="sets\MTA-files\img\61_front.jpg" id="MTA_61" data-flag="@XD" onclick="openSidebar('MTA_61',false)"><button class="flip-btn" onclick="imgFlip('MTA_61')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\227_back.jpg" alt="sets\MTA-files\img\227_front.jpg" id="MTA_227" data-flag="@XD" onclick="openSidebar('MTA_227',false)"><button class="flip-btn" onclick="imgFlip('MTA_227')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\4_back.jpg" alt="sets\MTA-files\img\4_front.jpg" id="MTA_4" data-flag="@XD" onclick="openSidebar('MTA_4',false)"><button class="flip-btn" onclick="imgFlip('MTA_4')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\86_back.jpg" alt="sets\MTA-files\img\86_front.jpg" id="MTA_86" data-flag="@XD" onclick="openSidebar('MTA_86',false)"><button class="flip-btn" onclick="imgFlip('MTA_86')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\54_back.jpg" alt="sets\MTA-files\img\54_front.jpg" id="MTA_54" data-flag="@XD" onclick="openSidebar('MTA_54',false)"><button class="flip-btn" onclick="imgFlip('MTA_54')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\205_back.jpg" alt="sets\MTA-files\img\205_front.jpg" id="MTA_205" data-flag="@XD" onclick="openSidebar('MTA_205',false)"><button class="flip-btn" onclick="imgFlip('MTA_205')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\12_back.jpg" alt="sets\MTA-files\img\12_front.jpg" id="MTA_12" data-flag="@XD" onclick="openSidebar('MTA_12',false)"><button class="flip-btn" onclick="imgFlip('MTA_12')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\231_back.jpg" alt="sets\MTA-files\img\231_front.jpg" id="MTA_231" data-flag="@XD" onclick="openSidebar('MTA_231',false)"><button class="flip-btn" onclick="imgFlip('MTA_231')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\93_back.jpg" alt="sets\MTA-files\img\93_front.jpg" id="MTA_93" data-flag="@XD" onclick="openSidebar('MTA_93',false)"><button class="flip-btn" onclick="imgFlip('MTA_93')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\52_back.jpg" alt="sets\MTA-files\img\52_front.jpg" id="MTA_52" data-flag="@XD" onclick="openSidebar('MTA_52',false)"><button class="flip-btn" onclick="imgFlip('MTA_52')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\206_back.jpg" alt="sets\MTA-files\img\206_front.jpg" id="MTA_206" data-flag="@XD" onclick="openSidebar('MTA_206',false)"><button class="flip-btn" onclick="imgFlip('MTA_206')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\31_back.jpg" alt="sets\MTA-files\img\31_front.jpg" id="MTA_31" data-flag="@XD" onclick="openSidebar('MTA_31',false)"><button class="flip-btn" onclick="imgFlip('MTA_31')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\25_back.jpg" alt="sets\MTA-files\img\25_front.jpg" id="MTA_25" data-flag="@XD" onclick="openSidebar('MTA_25',false)"><button class="flip-btn" onclick="imgFlip('MTA_25')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\90_back.jpg" alt="sets\MTA-files\img\90_front.jpg" id="MTA_90" data-flag="@XD" onclick="openSidebar('MTA_90',false)"><button class="flip-btn" onclick="imgFlip('MTA_90')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\50_back.jpg" alt="sets\MTA-files\img\50_front.jpg" id="MTA_50" data-flag="@XD" onclick="openSidebar('MTA_50',false)"><button class="flip-btn" onclick="imgFlip('MTA_50')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\149_back.jpg" alt="sets\MTA-files\img\149_front.jpg" id="MTA_149" data-flag="@XD" onclick="openSidebar('MTA_149',false)"><button class="flip-btn" onclick="imgFlip('MTA_149')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\5_back.jpg" alt="sets\MTA-files\img\5_front.jpg" id="MTA_5" data-flag="@XD" onclick="openSidebar('MTA_5',false)"><button class="flip-btn" onclick="imgFlip('MTA_5')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\134_back.jpg" alt="sets\MTA-files\img\134_front.jpg" id="MTA_134" data-flag="@XD" onclick="openSidebar('MTA_134',false)"><button class="flip-btn" onclick="imgFlip('MTA_134')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\88_back.jpg" alt="sets\MTA-files\img\88_front.jpg" id="MTA_88" data-flag="@XD" onclick="openSidebar('MTA_88',false)"><button class="flip-btn" onclick="imgFlip('MTA_88')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\46_back.jpg" alt="sets\MTA-files\img\46_front.jpg" id="MTA_46" data-flag="@XD" onclick="openSidebar('MTA_46',false)"><button class="flip-btn" onclick="imgFlip('MTA_46')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\64_back.jpg" alt="sets\MTA-files\img\64_front.jpg" id="MTA_64" data-flag="@XD" onclick="openSidebar('MTA_64',false)"><button class="flip-btn" onclick="imgFlip('MTA_64')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\214_back.jpg" alt="sets\MTA-files\img\214_front.jpg" id="MTA_214" data-flag="@XD" onclick="openSidebar('MTA_214',false)"><button class="flip-btn" onclick="imgFlip('MTA_214')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\216_back.jpg" alt="sets\MTA-files\img\216_front.jpg" id="MTA_216" data-flag="@XD" onclick="openSidebar('MTA_216',false)"><button class="flip-btn" onclick="imgFlip('MTA_216')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\112_back.jpg" alt="sets\MTA-files\img\112_front.jpg" id="MTA_112" data-flag="@XD" onclick="openSidebar('MTA_112',false)"><button class="flip-btn" onclick="imgFlip('MTA_112')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\55_back.jpg" alt="sets\MTA-files\img\55_front.jpg" id="MTA_55" data-flag="@XD" onclick="openSidebar('MTA_55',false)"><button class="flip-btn" onclick="imgFlip('MTA_55')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\71_back.jpg" alt="sets\MTA-files\img\71_front.jpg" id="MTA_71" data-flag="@XD" onclick="openSidebar('MTA_71',false)"><button class="flip-btn" onclick="imgFlip('MTA_71')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\213_back.jpg" alt="sets\MTA-files\img\213_front.jpg" id="MTA_213" data-flag="@XD" onclick="openSidebar('MTA_213',false)"><button class="flip-btn" onclick="imgFlip('MTA_213')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\229_back.jpg" alt="sets\MTA-files\img\229_front.jpg" id="MTA_229" data-flag="@XD" onclick="openSidebar('MTA_229',false)"><button class="flip-btn" onclick="imgFlip('MTA_229')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\98_back.jpg" alt="sets\MTA-files\img\98_front.jpg" id="MTA_98" data-flag="@XD" onclick="openSidebar('MTA_98',false)"><button class="flip-btn" onclick="imgFlip('MTA_98')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\56_back.jpg" alt="sets\MTA-files\img\56_front.jpg" id="MTA_56" data-flag="@XD" onclick="openSidebar('MTA_56',false)"><button class="flip-btn" onclick="imgFlip('MTA_56')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\2_back.jpg" alt="sets\MTA-files\img\2_front.jpg" id="MTA_2" data-flag="@XD" onclick="openSidebar('MTA_2',false)"><button class="flip-btn" onclick="imgFlip('MTA_2')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\21_back.jpg" alt="sets\MTA-files\img\21_front.jpg" id="MTA_21" data-flag="@XD" onclick="openSidebar('MTA_21',false)"><button class="flip-btn" onclick="imgFlip('MTA_21')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\27_back.jpg" alt="sets\MTA-files\img\27_front.jpg" id="MTA_27" data-flag="@XD" onclick="openSidebar('MTA_27',false)"><button class="flip-btn" onclick="imgFlip('MTA_27')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\100_back.jpg" alt="sets\MTA-files\img\100_front.jpg" id="MTA_100" data-flag="@XD" onclick="openSidebar('MTA_100',false)"><button class="flip-btn" onclick="imgFlip('MTA_100')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\40_back.jpg" alt="sets\MTA-files\img\40_front.jpg" id="MTA_40" data-flag="@XD" onclick="openSidebar('MTA_40',false)"><button class="flip-btn" onclick="imgFlip('MTA_40')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\238_back.jpg" alt="sets\MTA-files\img\238_front.jpg" id="MTA_238" data-flag="@XD" onclick="openSidebar('MTA_238',false)"><button class="flip-btn" onclick="imgFlip('MTA_238')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\17_back.jpg" alt="sets\MTA-files\img\17_front.jpg" id="MTA_17" data-flag="@XD" onclick="openSidebar('MTA_17',false)"><button class="flip-btn" onclick="imgFlip('MTA_17')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\210_back.jpg" alt="sets\MTA-files\img\210_front.jpg" id="MTA_210" data-flag="@XD" onclick="openSidebar('MTA_210',false)"><button class="flip-btn" onclick="imgFlip('MTA_210')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\91_back.jpg" alt="sets\MTA-files\img\91_front.jpg" id="MTA_91" data-flag="@XD" onclick="openSidebar('MTA_91',false)"><button class="flip-btn" onclick="imgFlip('MTA_91')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\215_back.jpg" alt="sets\MTA-files\img\215_front.jpg" id="MTA_215" data-flag="@XD" onclick="openSidebar('MTA_215',false)"><button class="flip-btn" onclick="imgFlip('MTA_215')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\62_back.jpg" alt="sets\MTA-files\img\62_front.jpg" id="MTA_62" data-flag="@XD" onclick="openSidebar('MTA_62',false)"><button class="flip-btn" onclick="imgFlip('MTA_62')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\219_back.jpg" alt="sets\MTA-files\img\219_front.jpg" id="MTA_219" data-flag="@XD" onclick="openSidebar('MTA_219',false)"><button class="flip-btn" onclick="imgFlip('MTA_219')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\38_back.jpg" alt="sets\MTA-files\img\38_front.jpg" id="MTA_38" data-flag="@XD" onclick="openSidebar('MTA_38',false)"><button class="flip-btn" onclick="imgFlip('MTA_38')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\87_back.jpg" alt="sets\MTA-files\img\87_front.jpg" id="MTA_87" data-flag="@XD" onclick="openSidebar('MTA_87',false)"><button class="flip-btn" onclick="imgFlip('MTA_87')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\53_back.jpg" alt="sets\MTA-files\img\53_front.jpg" id="MTA_53" data-flag="@XD" onclick="openSidebar('MTA_53',false)"><button class="flip-btn" onclick="imgFlip('MTA_53')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\70_back.jpg" alt="sets\MTA-files\img\70_front.jpg" id="MTA_70" data-flag="@XD" onclick="openSidebar('MTA_70',false)"><button class="flip-btn" onclick="imgFlip('MTA_70')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\19_back.jpg" alt="sets\MTA-files\img\19_front.jpg" id="MTA_19" data-flag="@XD" onclick="openSidebar('MTA_19',false)"><button class="flip-btn" onclick="imgFlip('MTA_19')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\28_back.jpg" alt="sets\MTA-files\img\28_front.jpg" id="MTA_28" data-flag="@XD" onclick="openSidebar('MTA_28',false)"><button class="flip-btn" onclick="imgFlip('MTA_28')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\201_back.jpg" alt="sets\MTA-files\img\201_front.jpg" id="MTA_201" data-flag="@XD" onclick="openSidebar('MTA_201',false)"><button class="flip-btn" onclick="imgFlip('MTA_201')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\242_back.jpg" alt="sets\MTA-files\img\242_front.jpg" id="MTA_242" data-flag="@XD" onclick="openSidebar('MTA_242',false)"><button class="flip-btn" onclick="imgFlip('MTA_242')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\74_back.jpg" alt="sets\MTA-files\img\74_front.jpg" id="MTA_74" data-flag="@XD" onclick="openSidebar('MTA_74',false)"><button class="flip-btn" onclick="imgFlip('MTA_74')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\7_back.jpg" alt="sets\MTA-files\img\7_front.jpg" id="MTA_7" data-flag="@XD" onclick="openSidebar('MTA_7',false)"><button class="flip-btn" onclick="imgFlip('MTA_7')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\36_back.jpg" alt="sets\MTA-files\img\36_front.jpg" id="MTA_36" data-flag="@XD" onclick="openSidebar('MTA_36',false)"><button class="flip-btn" onclick="imgFlip('MTA_36')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\82_back.jpg" alt="sets\MTA-files\img\82_front.jpg" id="MTA_82" data-flag="@XD" onclick="openSidebar('MTA_82',false)"><button class="flip-btn" onclick="imgFlip('MTA_82')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\101_back.jpg" alt="sets\MTA-files\img\101_front.jpg" id="MTA_101" data-flag="@XD" onclick="openSidebar('MTA_101',false)"><button class="flip-btn" onclick="imgFlip('MTA_101')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\75_back.jpg" alt="sets\MTA-files\img\75_front.jpg" id="MTA_75" data-flag="@XD" onclick="openSidebar('MTA_75',false)"><button class="flip-btn" onclick="imgFlip('MTA_75')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\18_back.jpg" alt="sets\MTA-files\img\18_front.jpg" id="MTA_18" data-flag="@XD" onclick="openSidebar('MTA_18',false)"><button class="flip-btn" onclick="imgFlip('MTA_18')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\33_back.jpg" alt="sets\MTA-files\img\33_front.jpg" id="MTA_33" data-flag="@XD" onclick="openSidebar('MTA_33',false)"><button class="flip-btn" onclick="imgFlip('MTA_33')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\234_back.jpg" alt="sets\MTA-files\img\234_front.jpg" id="MTA_234" data-flag="@XD" onclick="openSidebar('MTA_234',false)"><button class="flip-btn" onclick="imgFlip('MTA_234')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\49_back.jpg" alt="sets\MTA-files\img\49_front.jpg" id="MTA_49" data-flag="@XD" onclick="openSidebar('MTA_49',false)"><button class="flip-btn" onclick="imgFlip('MTA_49')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\73_back.jpg" alt="sets\MTA-files\img\73_front.jpg" id="MTA_73" data-flag="@XD" onclick="openSidebar('MTA_73',false)"><button class="flip-btn" onclick="imgFlip('MTA_73')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\279_back.jpg" alt="sets\MTA-files\img\279_front.jpg" id="MTA_279" data-flag="@XD" onclick="openSidebar('MTA_279',false)"><button class="flip-btn" onclick="imgFlip('MTA_279')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\26_back.jpg" alt="sets\MTA-files\img\26_front.jpg" id="MTA_26" data-flag="@XD" onclick="openSidebar('MTA_26',false)"><button class="flip-btn" onclick="imgFlip('MTA_26')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\203_back.jpg" alt="sets\MTA-files\img\203_front.jpg" id="MTA_203" data-flag="@XD" onclick="openSidebar('MTA_203',false)"><button class="flip-btn" onclick="imgFlip('MTA_203')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\0_back.jpg" alt="sets\MTA-files\img\0_front.jpg" id="MTA_0" data-flag="@XD" onclick="openSidebar('MTA_0',false)"><button class="flip-btn" onclick="imgFlip('MTA_0')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\239_back.jpg" alt="sets\MTA-files\img\239_front.jpg" id="MTA_239" data-flag="@XD" onclick="openSidebar('MTA_239',false)"><button class="flip-btn" onclick="imgFlip('MTA_239')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\11_back.jpg" alt="sets\MTA-files\img\11_front.jpg" id="MTA_11" data-flag="@XD" onclick="openSidebar('MTA_11',false)"><button class="flip-btn" onclick="imgFlip('MTA_11')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\32_back.jpg" alt="sets\MTA-files\img\32_front.jpg" id="MTA_32" data-flag="@XD" onclick="openSidebar('MTA_32',false)"><button class="flip-btn" onclick="imgFlip('MTA_32')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\92_back.jpg" alt="sets\MTA-files\img\92_front.jpg" id="MTA_92" data-flag="@XD" onclick="openSidebar('MTA_92',false)"><button class="flip-btn" onclick="imgFlip('MTA_92')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\144_back.jpg" alt="sets\MTA-files\img\144_front.jpg" id="MTA_144" data-flag="@XD" onclick="openSidebar('MTA_144',false)"><button class="flip-btn" onclick="imgFlip('MTA_144')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\204_back.jpg" alt="sets\MTA-files\img\204_front.jpg" id="MTA_204" data-flag="@XD" onclick="openSidebar('MTA_204',false)"><button class="flip-btn" onclick="imgFlip('MTA_204')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\8_back.jpg" alt="sets\MTA-files\img\8_front.jpg" id="MTA_8" data-flag="@XD" onclick="openSidebar('MTA_8',false)"><button class="flip-btn" onclick="imgFlip('MTA_8')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\1_back.jpg" alt="sets\MTA-files\img\1_front.jpg" id="MTA_1" data-flag="@XD" onclick="openSidebar('MTA_1',false)"><button class="flip-btn" onclick="imgFlip('MTA_1')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\99_back.jpg" alt="sets\MTA-files\img\99_front.jpg" id="MTA_99" data-flag="@XD" onclick="openSidebar('MTA_99',false)"><button class="flip-btn" onclick="imgFlip('MTA_99')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\57_back.jpg" alt="sets\MTA-files\img\57_front.jpg" id="MTA_57" data-flag="@XD" onclick="openSidebar('MTA_57',false)"><button class="flip-btn" onclick="imgFlip('MTA_57')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\69_back.jpg" alt="sets\MTA-files\img\69_front.jpg" id="MTA_69" data-flag="@XD" onclick="openSidebar('MTA_69',false)"><button class="flip-btn" onclick="imgFlip('MTA_69')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\3_back.jpg" alt="sets\MTA-files\img\3_front.jpg" id="MTA_3" data-flag="@XD" onclick="openSidebar('MTA_3',false)"><button class="flip-btn" onclick="imgFlip('MTA_3')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\34_back.jpg" alt="sets\MTA-files\img\34_front.jpg" id="MTA_34" data-flag="@XD" onclick="openSidebar('MTA_34',false)"><button class="flip-btn" onclick="imgFlip('MTA_34')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\84_back.jpg" alt="sets\MTA-files\img\84_front.jpg" id="MTA_84" data-flag="@XD" onclick="openSidebar('MTA_84',false)"><button class="flip-btn" onclick="imgFlip('MTA_84')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\243_back.jpg" alt="sets\MTA-files\img\243_front.jpg" id="MTA_243" data-flag="@XD" onclick="openSidebar('MTA_243',false)"><button class="flip-btn" onclick="imgFlip('MTA_243')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\76_back.jpg" alt="sets\MTA-files\img\76_front.jpg" id="MTA_76" data-flag="@XD" onclick="openSidebar('MTA_76',false)"><button class="flip-btn" onclick="imgFlip('MTA_76')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\225_back.jpg" alt="sets\MTA-files\img\225_front.jpg" id="MTA_225" data-flag="@XD" onclick="openSidebar('MTA_225',false)"><button class="flip-btn" onclick="imgFlip('MTA_225')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\37_back.jpg" alt="sets\MTA-files\img\37_front.jpg" id="MTA_37" data-flag="@XD" onclick="openSidebar('MTA_37',false)"><button class="flip-btn" onclick="imgFlip('MTA_37')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\89_back.jpg" alt="sets\MTA-files\img\89_front.jpg" id="MTA_89" data-flag="@XD" onclick="openSidebar('MTA_89',false)"><button class="flip-btn" onclick="imgFlip('MTA_89')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\241_back.jpg" alt="sets\MTA-files\img\241_front.jpg" id="MTA_241" data-flag="@XD" onclick="openSidebar('MTA_241',false)"><button class="flip-btn" onclick="imgFlip('MTA_241')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\77_back.jpg" alt="sets\MTA-files\img\77_front.jpg" id="MTA_77" data-flag="@XD" onclick="openSidebar('MTA_77',false)"><button class="flip-btn" onclick="imgFlip('MTA_77')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\226_back.jpg" alt="sets\MTA-files\img\226_front.jpg" id="MTA_226" data-flag="@XD" onclick="openSidebar('MTA_226',false)"><button class="flip-btn" onclick="imgFlip('MTA_226')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\24_back.jpg" alt="sets\MTA-files\img\24_front.jpg" id="MTA_24" data-flag="@XD" onclick="openSidebar('MTA_24',false)"><button class="flip-btn" onclick="imgFlip('MTA_24')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\235_back.jpg" alt="sets\MTA-files\img\235_front.jpg" id="MTA_235" data-flag="@XD" onclick="openSidebar('MTA_235',false)"><button class="flip-btn" onclick="imgFlip('MTA_235')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\42_back.jpg" alt="sets\MTA-files\img\42_front.jpg" id="MTA_42" data-flag="@XD" onclick="openSidebar('MTA_42',false)"><button class="flip-btn" onclick="imgFlip('MTA_42')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\66_back.jpg" alt="sets\MTA-files\img\66_front.jpg" id="MTA_66" data-flag="@XD" onclick="openSidebar('MTA_66',false)"><button class="flip-btn" onclick="imgFlip('MTA_66')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\14_back.jpg" alt="sets\MTA-files\img\14_front.jpg" id="MTA_14" data-flag="@XD" onclick="openSidebar('MTA_14',false)"><button class="flip-btn" onclick="imgFlip('MTA_14')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\29_back.jpg" alt="sets\MTA-files\img\29_front.jpg" id="MTA_29" data-flag="@XD" onclick="openSidebar('MTA_29',false)"><button class="flip-btn" onclick="imgFlip('MTA_29')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\97_back.jpg" alt="sets\MTA-files\img\97_front.jpg" id="MTA_97" data-flag="@XD" onclick="openSidebar('MTA_97',false)"><button class="flip-btn" onclick="imgFlip('MTA_97')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\208_back.jpg" alt="sets\MTA-files\img\208_front.jpg" id="MTA_208" data-flag="@XD" onclick="openSidebar('MTA_208',false)"><button class="flip-btn" onclick="imgFlip('MTA_208')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\59_back.jpg" alt="sets\MTA-files\img\59_front.jpg" id="MTA_59" data-flag="@XD" onclick="openSidebar('MTA_59',false)"><button class="flip-btn" onclick="imgFlip('MTA_59')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\13_back.jpg" alt="sets\MTA-files\img\13_front.jpg" id="MTA_13" data-flag="@XD" onclick="openSidebar('MTA_13',false)"><button class="flip-btn" onclick="imgFlip('MTA_13')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\212_back.jpg" alt="sets\MTA-files\img\212_front.jpg" id="MTA_212" data-flag="@XD" onclick="openSidebar('MTA_212',false)"><button class="flip-btn" onclick="imgFlip('MTA_212')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\85_back.jpg" alt="sets\MTA-files\img\85_front.jpg" id="MTA_85" data-flag="@XD" onclick="openSidebar('MTA_85',false)"><button class="flip-btn" onclick="imgFlip('MTA_85')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\240_back.jpg" alt="sets\MTA-files\img\240_front.jpg" id="MTA_240" data-flag="@XD" onclick="openSidebar('MTA_240',false)"><button class="flip-btn" onclick="imgFlip('MTA_240')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\78_back.jpg" alt="sets\MTA-files\img\78_front.jpg" id="MTA_78" data-flag="@XD" onclick="openSidebar('MTA_78',false)"><button class="flip-btn" onclick="imgFlip('MTA_78')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\6_back.jpg" alt="sets\MTA-files\img\6_front.jpg" id="MTA_6" data-flag="@XD" onclick="openSidebar('MTA_6',false)"><button class="flip-btn" onclick="imgFlip('MTA_6')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\30_back.jpg" alt="sets\MTA-files\img\30_front.jpg" id="MTA_30" data-flag="@XD" onclick="openSidebar('MTA_30',false)"><button class="flip-btn" onclick="imgFlip('MTA_30')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\81_back.jpg" alt="sets\MTA-files\img\81_front.jpg" id="MTA_81" data-flag="@XD" onclick="openSidebar('MTA_81',false)"><button class="flip-btn" onclick="imgFlip('MTA_81')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\44_back.jpg" alt="sets\MTA-files\img\44_front.jpg" id="MTA_44" data-flag="@XD" onclick="openSidebar('MTA_44',false)"><button class="flip-btn" onclick="imgFlip('MTA_44')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\63_back.jpg" alt="sets\MTA-files\img\63_front.jpg" id="MTA_63" data-flag="@XD" onclick="openSidebar('MTA_63',false)"><button class="flip-btn" onclick="imgFlip('MTA_63')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\15_back.jpg" alt="sets\MTA-files\img\15_front.jpg" id="MTA_15" data-flag="@XD" onclick="openSidebar('MTA_15',false)"><button class="flip-btn" onclick="imgFlip('MTA_15')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\217_back.jpg" alt="sets\MTA-files\img\217_front.jpg" id="MTA_217" data-flag="@XD" onclick="openSidebar('MTA_217',false)"><button class="flip-btn" onclick="imgFlip('MTA_217')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\80_back.jpg" alt="sets\MTA-files\img\80_front.jpg" id="MTA_80" data-flag="@XD" onclick="openSidebar('MTA_80',false)"><button class="flip-btn" onclick="imgFlip('MTA_80')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\207_back.jpg" alt="sets\MTA-files\img\207_front.jpg" id="MTA_207" data-flag="@XD" onclick="openSidebar('MTA_207',false)"><button class="flip-btn" onclick="imgFlip('MTA_207')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\236_back.jpg" alt="sets\MTA-files\img\236_front.jpg" id="MTA_236" data-flag="@XD" onclick="openSidebar('MTA_236',false)"><button class="flip-btn" onclick="imgFlip('MTA_236')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\10_back.jpg" alt="sets\MTA-files\img\10_front.jpg" id="MTA_10" data-flag="@XD" onclick="openSidebar('MTA_10',false)"><button class="flip-btn" onclick="imgFlip('MTA_10')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\218_back.jpg" alt="sets\MTA-files\img\218_front.jpg" id="MTA_218" data-flag="@XD" onclick="openSidebar('MTA_218',false)"><button class="flip-btn" onclick="imgFlip('MTA_218')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\96_back.jpg" alt="sets\MTA-files\img\96_front.jpg" id="MTA_96" data-flag="@XD" onclick="openSidebar('MTA_96',false)"><button class="flip-btn" onclick="imgFlip('MTA_96')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\45_back.jpg" alt="sets\MTA-files\img\45_front.jpg" id="MTA_45" data-flag="@XD" onclick="openSidebar('MTA_45',false)"><button class="flip-btn" onclick="imgFlip('MTA_45')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\68_back.jpg" alt="sets\MTA-files\img\68_front.jpg" id="MTA_68" data-flag="@XD" onclick="openSidebar('MTA_68',false)"><button class="flip-btn" onclick="imgFlip('MTA_68')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\39_back.jpg" alt="sets\MTA-files\img\39_front.jpg" id="MTA_39" data-flag="@XD" onclick="openSidebar('MTA_39',false)"><button class="flip-btn" onclick="imgFlip('MTA_39')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\228_back.jpg" alt="sets\MTA-files\img\228_front.jpg" id="MTA_228" data-flag="@XD" onclick="openSidebar('MTA_228',false)"><button class="flip-btn" onclick="imgFlip('MTA_228')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\51_back.jpg" alt="sets\MTA-files\img\51_front.jpg" id="MTA_51" data-flag="@XD" onclick="openSidebar('MTA_51',false)"><button class="flip-btn" onclick="imgFlip('MTA_51')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\41_back.jpg" alt="sets\MTA-files\img\41_front.jpg" id="MTA_41" data-flag="@XD" onclick="openSidebar('MTA_41',false)"><button class="flip-btn" onclick="imgFlip('MTA_41')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\65_back.jpg" alt="sets\MTA-files\img\65_front.jpg" id="MTA_65" data-flag="@XD" onclick="openSidebar('MTA_65',false)"><button class="flip-btn" onclick="imgFlip('MTA_65')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\224_back.jpg" alt="sets\MTA-files\img\224_front.jpg" id="MTA_224" data-flag="@XD" onclick="openSidebar('MTA_224',false)"><button class="flip-btn" onclick="imgFlip('MTA_224')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\230_back.jpg" alt="sets\MTA-files\img\230_front.jpg" id="MTA_230" data-flag="@XD" onclick="openSidebar('MTA_230',false)"><button class="flip-btn" onclick="imgFlip('MTA_230')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\202_back.jpg" alt="sets\MTA-files\img\202_front.jpg" id="MTA_202" data-flag="@XD" onclick="openSidebar('MTA_202',false)"><button class="flip-btn" onclick="imgFlip('MTA_202')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\43_back.jpg" alt="sets\MTA-files\img\43_front.jpg" id="MTA_43" data-flag="@XD" onclick="openSidebar('MTA_43',false)"><button class="flip-btn" onclick="imgFlip('MTA_43')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\72_back.jpg" alt="sets\MTA-files\img\72_front.jpg" id="MTA_72" data-flag="@XD" onclick="openSidebar('MTA_72',false)"><button class="flip-btn" onclick="imgFlip('MTA_72')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\16_back.jpg" alt="sets\MTA-files\img\16_front.jpg" id="MTA_16" data-flag="@XD" onclick="openSidebar('MTA_16',false)"><button class="flip-btn" onclick="imgFlip('MTA_16')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\303_back.jpg" alt="sets\MTA-files\img\303_front.jpg" id="MTA_303" data-flag="@XD" onclick="openSidebar('MTA_303',false)"><button class="flip-btn" onclick="imgFlip('MTA_303')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\79_back.jpg" alt="sets\MTA-files\img\79_front.jpg" id="MTA_79" data-flag="@XD" onclick="openSidebar('MTA_79',false)"><button class="flip-btn" onclick="imgFlip('MTA_79')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\139_back.jpg" alt="sets\MTA-files\img\139_front.jpg" id="MTA_139" data-flag="@XD" onclick="openSidebar('MTA_139',false)"><button class="flip-btn" onclick="imgFlip('MTA_139')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\60_back.jpg" alt="sets\MTA-files\img\60_front.jpg" id="MTA_60" data-flag="@XD" onclick="openSidebar('MTA_60',false)"><button class="flip-btn" onclick="imgFlip('MTA_60')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\132_back.jpg" alt="sets\MTA-files\img\132_front.jpg" id="MTA_132" data-flag="@XD" onclick="openSidebar('MTA_132',false)"><button class="flip-btn" onclick="imgFlip('MTA_132')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\304_back.jpg" alt="sets\MTA-files\img\304_front.jpg" id="MTA_304" data-flag="@XD" onclick="openSidebar('MTA_304',false)"><button class="flip-btn" onclick="imgFlip('MTA_304')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\83_back.jpg" alt="sets\MTA-files\img\83_front.jpg" id="MTA_83" data-flag="@XD" onclick="openSidebar('MTA_83',false)"><button class="flip-btn" onclick="imgFlip('MTA_83')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\282_back.jpg" alt="sets\MTA-files\img\282_front.jpg" id="MTA_282" data-flag="@XD" onclick="openSidebar('MTA_282',false)"><button class="flip-btn" onclick="imgFlip('MTA_282')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\286_back.jpg" alt="sets\MTA-files\img\286_front.jpg" id="MTA_286" data-flag="@XD" onclick="openSidebar('MTA_286',false)"><button class="flip-btn" onclick="imgFlip('MTA_286')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\281_back.jpg" alt="sets\MTA-files\img\281_front.jpg" id="MTA_281" data-flag="@XD" onclick="openSidebar('MTA_281',false)"><button class="flip-btn" onclick="imgFlip('MTA_281')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\287_back.jpg" alt="sets\MTA-files\img\287_front.jpg" id="MTA_287" data-flag="@XD" onclick="openSidebar('MTA_287',false)"><button class="flip-btn" onclick="imgFlip('MTA_287')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\232_back.jpg" alt="sets\MTA-files\img\232_front.jpg" id="MTA_232" data-flag="@XD" onclick="openSidebar('MTA_232',false)"><button class="flip-btn" onclick="imgFlip('MTA_232')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\299_back.jpg" alt="sets\MTA-files\img\299_front.jpg" id="MTA_299" data-flag="@XD" onclick="openSidebar('MTA_299',false)"><button class="flip-btn" onclick="imgFlip('MTA_299')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\300_back.jpg" alt="sets\MTA-files\img\300_front.jpg" id="MTA_300" data-flag="@XD" onclick="openSidebar('MTA_300',false)"><button class="flip-btn" onclick="imgFlip('MTA_300')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\277_back.jpg" alt="sets\MTA-files\img\277_front.jpg" id="MTA_277" data-flag="@XD" onclick="openSidebar('MTA_277',false)"><button class="flip-btn" onclick="imgFlip('MTA_277')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\280_back.jpg" alt="sets\MTA-files\img\280_front.jpg" id="MTA_280" data-flag="@XD" onclick="openSidebar('MTA_280',false)"><button class="flip-btn" onclick="imgFlip('MTA_280')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\293_back.jpg" alt="sets\MTA-files\img\293_front.jpg" id="MTA_293" data-flag="@XD" onclick="openSidebar('MTA_293',false)"><button class="flip-btn" onclick="imgFlip('MTA_293')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\288_back.jpg" alt="sets\MTA-files\img\288_front.jpg" id="MTA_288" data-flag="@XD" onclick="openSidebar('MTA_288',false)"><button class="flip-btn" onclick="imgFlip('MTA_288')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\289_back.jpg" alt="sets\MTA-files\img\289_front.jpg" id="MTA_289" data-flag="@XD" onclick="openSidebar('MTA_289',false)"><button class="flip-btn" onclick="imgFlip('MTA_289')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\220_back.jpg" alt="sets\MTA-files\img\220_front.jpg" id="MTA_220" data-flag="@XD" onclick="openSidebar('MTA_220',false)"><button class="flip-btn" onclick="imgFlip('MTA_220')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\283_back.jpg" alt="sets\MTA-files\img\283_front.jpg" id="MTA_283" data-flag="@XD" onclick="openSidebar('MTA_283',false)"><button class="flip-btn" onclick="imgFlip('MTA_283')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\305_back.jpg" alt="sets\MTA-files\img\305_front.jpg" id="MTA_305" data-flag="@XD" onclick="openSidebar('MTA_305',false)"><button class="flip-btn" onclick="imgFlip('MTA_305')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\247_back.jpg" alt="sets\MTA-files\img\247_front.jpg" id="MTA_247" data-flag="@XD" onclick="openSidebar('MTA_247',false)"><button class="flip-btn" onclick="imgFlip('MTA_247')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\296_back.jpg" alt="sets\MTA-files\img\296_front.jpg" id="MTA_296" data-flag="@XD" onclick="openSidebar('MTA_296',false)"><button class="flip-btn" onclick="imgFlip('MTA_296')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\273_back.jpg" alt="sets\MTA-files\img\273_front.jpg" id="MTA_273" data-flag="@XD" onclick="openSidebar('MTA_273',false)"><button class="flip-btn" onclick="imgFlip('MTA_273')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\177_back.jpg" alt="sets\MTA-files\img\177_front.jpg" id="MTA_177" data-flag="@XD" onclick="openSidebar('MTA_177',false)"><button class="flip-btn" onclick="imgFlip('MTA_177')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\245_back.jpg" alt="sets\MTA-files\img\245_front.jpg" id="MTA_245" data-flag="@XD" onclick="openSidebar('MTA_245',false)"><button class="flip-btn" onclick="imgFlip('MTA_245')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\184_back.jpg" alt="sets\MTA-files\img\184_front.jpg" id="MTA_184" data-flag="@XD" onclick="openSidebar('MTA_184',false)"><button class="flip-btn" onclick="imgFlip('MTA_184')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\197_back.jpg" alt="sets\MTA-files\img\197_front.jpg" id="MTA_197" data-flag="@XD" onclick="openSidebar('MTA_197',false)"><button class="flip-btn" onclick="imgFlip('MTA_197')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\175_back.jpg" alt="sets\MTA-files\img\175_front.jpg" id="MTA_175" data-flag="@XD" onclick="openSidebar('MTA_175',false)"><button class="flip-btn" onclick="imgFlip('MTA_175')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\274_back.jpg" alt="sets\MTA-files\img\274_front.jpg" id="MTA_274" data-flag="@XD" onclick="openSidebar('MTA_274',false)"><button class="flip-btn" onclick="imgFlip('MTA_274')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\131_back.jpg" alt="sets\MTA-files\img\131_front.jpg" id="MTA_131" data-flag="@XD" onclick="openSidebar('MTA_131',false)"><button class="flip-btn" onclick="imgFlip('MTA_131')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\171_back.jpg" alt="sets\MTA-files\img\171_front.jpg" id="MTA_171" data-flag="@XD" onclick="openSidebar('MTA_171',false)"><button class="flip-btn" onclick="imgFlip('MTA_171')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\179_back.jpg" alt="sets\MTA-files\img\179_front.jpg" id="MTA_179" data-flag="@XD" onclick="openSidebar('MTA_179',false)"><button class="flip-btn" onclick="imgFlip('MTA_179')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\158_back.jpg" alt="sets\MTA-files\img\158_front.jpg" id="MTA_158" data-flag="@XD" onclick="openSidebar('MTA_158',false)"><button class="flip-btn" onclick="imgFlip('MTA_158')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\163_back.jpg" alt="sets\MTA-files\img\163_front.jpg" id="MTA_163" data-flag="@XD" onclick="openSidebar('MTA_163',false)"><button class="flip-btn" onclick="imgFlip('MTA_163')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\167_back.jpg" alt="sets\MTA-files\img\167_front.jpg" id="MTA_167" data-flag="@XD" onclick="openSidebar('MTA_167',false)"><button class="flip-btn" onclick="imgFlip('MTA_167')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\165_back.jpg" alt="sets\MTA-files\img\165_front.jpg" id="MTA_165" data-flag="@XD" onclick="openSidebar('MTA_165',false)"><button class="flip-btn" onclick="imgFlip('MTA_165')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\250_back.jpg" alt="sets\MTA-files\img\250_front.jpg" id="MTA_250" data-flag="@XD" onclick="openSidebar('MTA_250',false)"><button class="flip-btn" onclick="imgFlip('MTA_250')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\173_back.jpg" alt="sets\MTA-files\img\173_front.jpg" id="MTA_173" data-flag="@XD" onclick="openSidebar('MTA_173',false)"><button class="flip-btn" onclick="imgFlip('MTA_173')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\159_back.jpg" alt="sets\MTA-files\img\159_front.jpg" id="MTA_159" data-flag="@XD" onclick="openSidebar('MTA_159',false)"><button class="flip-btn" onclick="imgFlip('MTA_159')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\278_back.jpg" alt="sets\MTA-files\img\278_front.jpg" id="MTA_278" data-flag="@XD" onclick="openSidebar('MTA_278',false)"><button class="flip-btn" onclick="imgFlip('MTA_278')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\169_back.jpg" alt="sets\MTA-files\img\169_front.jpg" id="MTA_169" data-flag="@XD" onclick="openSidebar('MTA_169',false)"><button class="flip-btn" onclick="imgFlip('MTA_169')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\162_back.jpg" alt="sets\MTA-files\img\162_front.jpg" id="MTA_162" data-flag="@XD" onclick="openSidebar('MTA_162',false)"><button class="flip-btn" onclick="imgFlip('MTA_162')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\256_back.jpg" alt="sets\MTA-files\img\256_front.jpg" id="MTA_256" data-flag="@XD" onclick="openSidebar('MTA_256',false)"><button class="flip-btn" onclick="imgFlip('MTA_256')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\257_back.jpg" alt="sets\MTA-files\img\257_front.jpg" id="MTA_257" data-flag="@XD" onclick="openSidebar('MTA_257',false)"><button class="flip-btn" onclick="imgFlip('MTA_257')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\248_back.jpg" alt="sets\MTA-files\img\248_front.jpg" id="MTA_248" data-flag="@XD" onclick="openSidebar('MTA_248',false)"><button class="flip-btn" onclick="imgFlip('MTA_248')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\185_back.jpg" alt="sets\MTA-files\img\185_front.jpg" id="MTA_185" data-flag="@XD" onclick="openSidebar('MTA_185',false)"><button class="flip-btn" onclick="imgFlip('MTA_185')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\183_back.jpg" alt="sets\MTA-files\img\183_front.jpg" id="MTA_183" data-flag="@XD" onclick="openSidebar('MTA_183',false)"><button class="flip-btn" onclick="imgFlip('MTA_183')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\258_back.jpg" alt="sets\MTA-files\img\258_front.jpg" id="MTA_258" data-flag="@XD" onclick="openSidebar('MTA_258',false)"><button class="flip-btn" onclick="imgFlip('MTA_258')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\178_back.jpg" alt="sets\MTA-files\img\178_front.jpg" id="MTA_178" data-flag="@XD" onclick="openSidebar('MTA_178',false)"><button class="flip-btn" onclick="imgFlip('MTA_178')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\176_back.jpg" alt="sets\MTA-files\img\176_front.jpg" id="MTA_176" data-flag="@XD" onclick="openSidebar('MTA_176',false)"><button class="flip-btn" onclick="imgFlip('MTA_176')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\272_back.jpg" alt="sets\MTA-files\img\272_front.jpg" id="MTA_272" data-flag="@XD" onclick="openSidebar('MTA_272',false)"><button class="flip-btn" onclick="imgFlip('MTA_272')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\244_back.jpg" alt="sets\MTA-files\img\244_front.jpg" id="MTA_244" data-flag="@XD" onclick="openSidebar('MTA_244',false)"><button class="flip-btn" onclick="imgFlip('MTA_244')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\249_back.jpg" alt="sets\MTA-files\img\249_front.jpg" id="MTA_249" data-flag="@XD" onclick="openSidebar('MTA_249',false)"><button class="flip-btn" onclick="imgFlip('MTA_249')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\246_back.jpg" alt="sets\MTA-files\img\246_front.jpg" id="MTA_246" data-flag="@XD" onclick="openSidebar('MTA_246',false)"><button class="flip-btn" onclick="imgFlip('MTA_246')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\174_back.jpg" alt="sets\MTA-files\img\174_front.jpg" id="MTA_174" data-flag="@XD" onclick="openSidebar('MTA_174',false)"><button class="flip-btn" onclick="imgFlip('MTA_174')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\160_back.jpg" alt="sets\MTA-files\img\160_front.jpg" id="MTA_160" data-flag="@XD" onclick="openSidebar('MTA_160',false)"><button class="flip-btn" onclick="imgFlip('MTA_160')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\161_back.jpg" alt="sets\MTA-files\img\161_front.jpg" id="MTA_161" data-flag="@XD" onclick="openSidebar('MTA_161',false)"><button class="flip-btn" onclick="imgFlip('MTA_161')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\170_back.jpg" alt="sets\MTA-files\img\170_front.jpg" id="MTA_170" data-flag="@XD" onclick="openSidebar('MTA_170',false)"><button class="flip-btn" onclick="imgFlip('MTA_170')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\157_back.jpg" alt="sets\MTA-files\img\157_front.jpg" id="MTA_157" data-flag="@XD" onclick="openSidebar('MTA_157',false)"><button class="flip-btn" onclick="imgFlip('MTA_157')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\164_back.jpg" alt="sets\MTA-files\img\164_front.jpg" id="MTA_164" data-flag="@XD" onclick="openSidebar('MTA_164',false)"><button class="flip-btn" onclick="imgFlip('MTA_164')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\172_back.jpg" alt="sets\MTA-files\img\172_front.jpg" id="MTA_172" data-flag="@XD" onclick="openSidebar('MTA_172',false)"><button class="flip-btn" onclick="imgFlip('MTA_172')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\168_back.jpg" alt="sets\MTA-files\img\168_front.jpg" id="MTA_168" data-flag="@XD" onclick="openSidebar('MTA_168',false)"><button class="flip-btn" onclick="imgFlip('MTA_168')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\156_back.jpg" alt="sets\MTA-files\img\156_front.jpg" id="MTA_156" data-flag="@XD" onclick="openSidebar('MTA_156',false)"><button class="flip-btn" onclick="imgFlip('MTA_156')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\166_back.jpg" alt="sets\MTA-files\img\166_front.jpg" id="MTA_166" data-flag="@XD" onclick="openSidebar('MTA_166',false)"><button class="flip-btn" onclick="imgFlip('MTA_166')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\284_back.jpg" alt="sets\MTA-files\img\284_front.jpg" id="MTA_284" data-flag="@XD" onclick="openSidebar('MTA_284',false)"><button class="flip-btn" onclick="imgFlip('MTA_284')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\180_back.jpg" alt="sets\MTA-files\img\180_front.jpg" id="MTA_180" data-flag="@XD" onclick="openSidebar('MTA_180',false)"><button class="flip-btn" onclick="imgFlip('MTA_180')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\285_back.jpg" alt="sets\MTA-files\img\285_front.jpg" id="MTA_285" data-flag="@XD" onclick="openSidebar('MTA_285',false)"><button class="flip-btn" onclick="imgFlip('MTA_285')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\195_back.jpg" alt="sets\MTA-files\img\195_front.jpg" id="MTA_195" data-flag="@XD" onclick="openSidebar('MTA_195',false)"><button class="flip-btn" onclick="imgFlip('MTA_195')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\194_back.jpg" alt="sets\MTA-files\img\194_front.jpg" id="MTA_194" data-flag="@XD" onclick="openSidebar('MTA_194',false)"><button class="flip-btn" onclick="imgFlip('MTA_194')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\191_back.jpg" alt="sets\MTA-files\img\191_front.jpg" id="MTA_191" data-flag="@XD" onclick="openSidebar('MTA_191',false)"><button class="flip-btn" onclick="imgFlip('MTA_191')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\190_back.jpg" alt="sets\MTA-files\img\190_front.jpg" id="MTA_190" data-flag="@XD" onclick="openSidebar('MTA_190',false)"><button class="flip-btn" onclick="imgFlip('MTA_190')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\301_back.jpg" alt="sets\MTA-files\img\301_front.jpg" id="MTA_301" data-flag="@XD" onclick="openSidebar('MTA_301',false)"><button class="flip-btn" onclick="imgFlip('MTA_301')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\259_back.jpg" alt="sets\MTA-files\img\259_front.jpg" id="MTA_259" data-flag="@XD" onclick="openSidebar('MTA_259',false)"><button class="flip-btn" onclick="imgFlip('MTA_259')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\306_back.jpg" alt="sets\MTA-files\img\306_front.jpg" id="MTA_306" data-flag="@XD" onclick="openSidebar('MTA_306',false)"><button class="flip-btn" onclick="imgFlip('MTA_306')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\188_back.jpg" alt="sets\MTA-files\img\188_front.jpg" id="MTA_188" data-flag="@XD" onclick="openSidebar('MTA_188',false)"><button class="flip-btn" onclick="imgFlip('MTA_188')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\295_back.jpg" alt="sets\MTA-files\img\295_front.jpg" id="MTA_295" data-flag="@XD" onclick="openSidebar('MTA_295',false)"><button class="flip-btn" onclick="imgFlip('MTA_295')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\95_back.jpg" alt="sets\MTA-files\img\95_front.jpg" id="MTA_95" data-flag="@XD" onclick="openSidebar('MTA_95',false)"><button class="flip-btn" onclick="imgFlip('MTA_95')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\155_back.jpg" alt="sets\MTA-files\img\155_front.jpg" id="MTA_155" data-flag="@XD" onclick="openSidebar('MTA_155',false)"><button class="flip-btn" onclick="imgFlip('MTA_155')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\94_back.jpg" alt="sets\MTA-files\img\94_front.jpg" id="MTA_94" data-flag="@XD" onclick="openSidebar('MTA_94',false)"><button class="flip-btn" onclick="imgFlip('MTA_94')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\222_back.jpg" alt="sets\MTA-files\img\222_front.jpg" id="MTA_222" data-flag="@XD" onclick="openSidebar('MTA_222',false)"><button class="flip-btn" onclick="imgFlip('MTA_222')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\221_back.jpg" alt="sets\MTA-files\img\221_front.jpg" id="MTA_221" data-flag="@XD" onclick="openSidebar('MTA_221',false)"><button class="flip-btn" onclick="imgFlip('MTA_221')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\290_back.jpg" alt="sets\MTA-files\img\290_front.jpg" id="MTA_290" data-flag="@XD" onclick="openSidebar('MTA_290',false)"><button class="flip-btn" onclick="imgFlip('MTA_290')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\292_back.jpg" alt="sets\MTA-files\img\292_front.jpg" id="MTA_292" data-flag="@XD" onclick="openSidebar('MTA_292',false)"><button class="flip-btn" onclick="imgFlip('MTA_292')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\MTA-files\img\297.jpg" id="MTA_297" data-flag="@X" onclick="openSidebar('MTA_297',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MTA-files\img\291.jpg" id="MTA_291" data-flag="@X" onclick="openSidebar('MTA_291',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MTA-files\img\275.jpg" id="MTA_275" data-flag="@X" onclick="openSidebar('MTA_275',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MTA-files\img\276.jpg" id="MTA_276" data-flag="@X" onclick="openSidebar('MTA_276',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MTA-files\img\298.jpg" id="MTA_298" data-flag="@X" onclick="openSidebar('MTA_298',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MTA-files\img\302.jpg" id="MTA_302" data-flag="@X" onclick="openSidebar('MTA_302',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MTA-files\img\294.jpg" id="MTA_294" data-flag="@X" onclick="openSidebar('MTA_294',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MTA-files\img\307.jpg" id="MTA_307" data-flag="@X" onclick="openSidebar('MTA_307',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\MTA-files\img\182_back.jpg" alt="sets\MTA-files\img\182_front.jpg" id="MTA_182" data-flag="@XD" onclick="openSidebar('MTA_182',false)"><button class="flip-btn" onclick="imgFlip('MTA_182')"></button></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MTA_e" data-flag="@E" onclick="openSidebar('MTA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MTA_er" data-flag="@E" onclick="openSidebar('MTA_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1].toLowerCase());
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>
