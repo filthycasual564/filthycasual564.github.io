@@ -1,0 +1,5521 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Hunting Predator",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Cat",
+			"collector_number": "168",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/0_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/0_front.jpg"
+			}
+		},
+		{
+			"name": "Phantasmal Falcon",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Bird Illusion",
+			"collector_number": "81",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/1_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/1_front.jpg"
+			}
+		},
+		{
+			"name": "Elder Treefolk",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Treefolk",
+			"collector_number": "203",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/2_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/2_front.jpg"
+			}
+		},
+		{
+			"name": "Reflexive Reposte",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "35",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/3_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/3_front.jpg"
+			}
+		},
+		{
+			"name": "Cloudsoar Drake",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Drake",
+			"collector_number": "57",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/4_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/4_front.jpg"
+			}
+		},
+		{
+			"name": "Dancing Ghost",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "12",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/5_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/5_front.jpg"
+			}
+		},
+		{
+			"name": "Unusually Large Sheepdog",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Giant Dog",
+			"collector_number": "45",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/6_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/6_front.jpg"
+			}
+		},
+		{
+			"name": "Living Bones",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "27",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/7_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/7_front.jpg"
+			}
+		},
+		{
+			"name": "Portal Prison",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "33",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/8_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/8_front.jpg"
+			}
+		},
+		{
+			"name": "Troll Collector",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Troll",
+			"collector_number": "42",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/9_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/9_front.jpg"
+			}
+		},
+		{
+			"name": "Valderlot Footman",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "47",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/10_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/10_front.jpg"
+			}
+		},
+		{
+			"name": "Plains Keldimat",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Beast",
+			"collector_number": "32",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/11_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/11_front.jpg"
+			}
+		},
+		{
+			"name": "Bounding Windhound",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Dog",
+			"collector_number": "9",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/12_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/12_front.jpg"
+			}
+		},
+		{
+			"name": "Tundra Protector",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Spirit Ranger",
+			"collector_number": "43",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/13_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/13_front.jpg"
+			}
+		},
+		{
+			"name": "Snowbound Scop",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Bard",
+			"collector_number": "39",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/14_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/14_front.jpg"
+			}
+		},
+		{
+			"name": "Valderlot Battle-Cleric",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Cleric Soldier",
+			"collector_number": "46",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/15_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/15_front.jpg"
+			}
+		},
+		{
+			"name": "Wilderness Angel",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Angel Druid",
+			"collector_number": "52",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/16_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/16_front.jpg"
+			}
+		},
+		{
+			"name": "Haunting Pack",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Dog Spirit",
+			"collector_number": "20",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/17_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/17_front.jpg"
+			}
+		},
+		{
+			"name": "Magic Defenses",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "28",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/18_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/18_front.jpg"
+			}
+		},
+		{
+			"name": "Lead Battalion",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Dwarf Soldier",
+			"collector_number": "26",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/19_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/19_front.jpg"
+			}
+		},
+		{
+			"name": "Ancestral Spirit Blade",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "5",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/20_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/20_front.jpg"
+			}
+		},
+		{
+			"name": "Graveyard Ghasts",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "19",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/21_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/21_front.jpg"
+			}
+		},
+		{
+			"name": "Playful Tricksters",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Merfolk Rogue",
+			"collector_number": "83",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/22_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/22_front.jpg"
+			}
+		},
+		{
+			"name": "Bored Student",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "54",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/23_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/23_front.jpg"
+			}
+		},
+		{
+			"name": "Repulsion Blast",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "87",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/24_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/24_front.jpg"
+			}
+		},
+		{
+			"name": "Discovery of Magic",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "59",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/25_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/25_front.jpg"
+			}
+		},
+		{
+			"name": "Mystic Duelist",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature",
+			"collector_number": "78",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/26_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/26_front.jpg"
+			}
+		},
+		{
+			"name": "Frostomancer",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "66",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/27_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/27_front.jpg"
+			}
+		},
+		{
+			"name": "Hydroshift",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "70",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/28_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/28_front.jpg"
+			}
+		},
+		{
+			"name": "Rogue Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Gnome Rogue Wizard",
+			"collector_number": "88",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/29_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/29_front.jpg"
+			}
+		},
+		{
+			"name": "Shape-Caster Novice",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "91",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/30_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/30_front.jpg"
+			}
+		},
+		{
+			"name": "Cloudfish",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Fish",
+			"collector_number": "11",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/31_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/31_front.jpg"
+			}
+		},
+		{
+			"name": "Old Harpy",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Harpy Wizard",
+			"collector_number": "80",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/32_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/32_front.jpg"
+			}
+		},
+		{
+			"name": "Learn to Fly",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "75",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/33_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/33_front.jpg"
+			}
+		},
+		{
+			"name": "Placid Lionwhale",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Whale",
+			"collector_number": "82",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/34_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/34_front.jpg"
+			}
+		},
+		{
+			"name": "Alchemy Instructor",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Goblin Wizard",
+			"collector_number": "53",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/35_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/35_front.jpg"
+			}
+		},
+		{
+			"name": "Large Crustacean",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Giant Crab",
+			"collector_number": "74",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/36_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/36_front.jpg"
+			}
+		},
+		{
+			"name": "Reef Artisan",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk Bard",
+			"collector_number": "85",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/37_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/37_front.jpg"
+			}
+		},
+		{
+			"name": "Hydromage",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elemental Wizard",
+			"collector_number": "69",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/38_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/38_front.jpg"
+			}
+		},
+		{
+			"name": "Valderlot Guardian",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Dwarf Soldier",
+			"collector_number": "48",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/39_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/39_front.jpg"
+			}
+		},
+		{
+			"name": "Dusk Drake",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Drake",
+			"collector_number": "159",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/40_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/40_front.jpg"
+			}
+		},
+		{
+			"name": "Vengeful Apparation",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Elk Shade",
+			"collector_number": "190",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/41_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/41_front.jpg"
+			}
+		},
+		{
+			"name": "Pyrodog",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elemental Dog",
+			"collector_number": "178",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/42_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/42_front.jpg"
+			}
+		},
+		{
+			"name": "Wild Dinosaur",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "191",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/43_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/43_front.jpg"
+			}
+		},
+		{
+			"name": "Smash to Rubble",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "185",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/44_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/44_front.jpg"
+			}
+		},
+		{
+			"name": "Thrill of Learning",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "188",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/45_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/45_front.jpg"
+			}
+		},
+		{
+			"name": "Break Through",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "152",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/46_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/46_front.jpg"
+			}
+		},
+		{
+			"name": "Blade of Fortune",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Mercenary",
+			"collector_number": "148",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/47_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/47_front.jpg"
+			}
+		},
+		{
+			"name": "Raid Captain",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "181",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/48_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/48_front.jpg"
+			}
+		},
+		{
+			"name": "Hordespur Ghoul",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Zombie Warlock",
+			"collector_number": "167",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/49_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/49_front.jpg"
+			}
+		},
+		{
+			"name": "Bloodseeker Vampire",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Vampire",
+			"collector_number": "151",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/50_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/50_front.jpg"
+			}
+		},
+		{
+			"name": "Vampire's Plaything",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human",
+			"collector_number": "141",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/51_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/51_front.jpg"
+			}
+		},
+		{
+			"name": "Bloodaxe Berzerk",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "150",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/52_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/52_front.jpg"
+			}
+		},
+		{
+			"name": "Feral Shaman",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Druid",
+			"collector_number": "162",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/53_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/53_front.jpg"
+			}
+		},
+		{
+			"name": "Blood-Borne Demon",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Demon",
+			"collector_number": "149",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/54_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/54_front.jpg"
+			}
+		},
+		{
+			"name": "Burstfire Mage",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "155",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/55_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/55_front.jpg"
+			}
+		},
+		{
+			"name": "Desciple of Delingarde",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard Warrior",
+			"collector_number": "158",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/56_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/56_front.jpg"
+			}
+		},
+		{
+			"name": "Monster Hunter",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "173",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/57_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/57_front.jpg"
+			}
+		},
+		{
+			"name": "Burning Power Mage",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "153",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/58_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/58_front.jpg"
+			}
+		},
+		{
+			"name": "Sand Whale",
+			"rarity": "common",
+			"mana_cost": "{7}{G}",
+			"type": "Creature — Whale",
+			"collector_number": "232",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/59_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/59_front.jpg"
+			}
+		},
+		{
+			"name": "Vine Armor",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "239",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/60_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/60_front.jpg"
+			}
+		},
+		{
+			"name": "Berzerk Challenger",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "196",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/61_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/61_front.jpg"
+			}
+		},
+		{
+			"name": "Gigantic Growth",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "216",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/62_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/62_front.jpg"
+			}
+		},
+		{
+			"name": "Showdown",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "234",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/63_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/63_front.jpg"
+			}
+		},
+		{
+			"name": "Deepwood Animator",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Satyr Druid",
+			"collector_number": "200",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/64_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/64_front.jpg"
+			}
+		},
+		{
+			"name": "Transitional Verdance",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "237",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/65_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/65_front.jpg"
+			}
+		},
+		{
+			"name": "Sage of Health",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "231",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/66_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/66_front.jpg"
+			}
+		},
+		{
+			"name": "Beastkin Druid",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "195",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/67_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/67_front.jpg"
+			}
+		},
+		{
+			"name": "Tombtaster Ooze",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Ooze",
+			"collector_number": "236",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/68_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/68_front.jpg"
+			}
+		},
+		{
+			"name": "Mucous Shroom",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fungus",
+			"collector_number": "226",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/69_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/69_front.jpg"
+			}
+		},
+		{
+			"name": "Great Wood Communing",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "217",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/70_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/70_front.jpg"
+			}
+		},
+		{
+			"name": "Dune Snake",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Snake",
+			"collector_number": "201",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/71_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/71_front.jpg"
+			}
+		},
+		{
+			"name": "Unwary Trollseekers",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Warrior",
+			"collector_number": "238",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/72_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/72_front.jpg"
+			}
+		},
+		{
+			"name": "Man of the Woods",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "222",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/73_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/73_front.jpg"
+			}
+		},
+		{
+			"name": "Herd of Rhinobeetles",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Insect Rhino",
+			"collector_number": "219",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/74_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/74_front.jpg"
+			}
+		},
+		{
+			"name": "Horngreg",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Bear Goat Turtle",
+			"collector_number": "220",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/75_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/75_front.jpg"
+			}
+		},
+		{
+			"name": "Overgrowth Tortise",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Turtle",
+			"collector_number": "228",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/76_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/76_front.jpg"
+			}
+		},
+		{
+			"name": "Rhinopine",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Rhino Porcupine",
+			"collector_number": "229",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/77_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/77_front.jpg"
+			}
+		},
+		{
+			"name": "Sandtrotting Drakosaur",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Dinosaur Drake",
+			"collector_number": "233",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/78_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/78_front.jpg"
+			}
+		},
+		{
+			"name": "Witch's Familiar",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Skeleton Spider",
+			"collector_number": "145",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/79_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/79_front.jpg"
+			}
+		},
+		{
+			"name": "Swamp Toad",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Frog",
+			"collector_number": "138",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/80_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/80_front.jpg"
+			}
+		},
+		{
+			"name": "Spontaneous Reanimation",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "136",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/81_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/81_front.jpg"
+			}
+		},
+		{
+			"name": "Fight Dirty",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "116",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/82_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/82_front.jpg"
+			}
+		},
+		{
+			"name": "Zombster",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Zombie Lobster",
+			"collector_number": "146",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/83_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/83_front.jpg"
+			}
+		},
+		{
+			"name": "Sanity Sap",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/84_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/84_front.jpg"
+			}
+		},
+		{
+			"name": "Slay",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "135",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/85_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/85_front.jpg"
+			}
+		},
+		{
+			"name": "Beast of Decay",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Horror Skeleton Beast",
+			"collector_number": "102",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/86_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/86_front.jpg"
+			}
+		},
+		{
+			"name": "Darkhound",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Shade Dog",
+			"collector_number": "111",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/87_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/87_front.jpg"
+			}
+		},
+		{
+			"name": "Corpse Seeker",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Vampire Bat",
+			"collector_number": "105",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/88_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/88_front.jpg"
+			}
+		},
+		{
+			"name": "Scavenging Opportunist",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "131",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/89_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/89_front.jpg"
+			}
+		},
+		{
+			"name": "Bloodhorde General",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Vampire Warrior",
+			"collector_number": "104",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/90_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/90_front.jpg"
+			}
+		},
+		{
+			"name": "Cursed Berzerk",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "110",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/91_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/91_front.jpg"
+			}
+		},
+		{
+			"name": "Rogueish Moonlighter",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Vampire Rogue",
+			"collector_number": "128",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/92_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/92_front.jpg"
+			}
+		},
+		{
+			"name": "Black Market Fence",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Artifact Creature — Rogue Wall",
+			"collector_number": "103",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/93_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/93_front.jpg"
+			}
+		},
+		{
+			"name": "fixing Fox Carving",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "296",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/94_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/94_front.jpg"
+			}
+		},
+		{
+			"name": "Bomb",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "294",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/95_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/95_front.jpg"
+			}
+		},
+		{
+			"name": "Thirsty Vampire",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "139",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/96_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/96_front.jpg"
+			}
+		},
+		{
+			"name": "Skulking Rat",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat",
+			"collector_number": "134",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/97_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/97_front.jpg"
+			}
+		},
+		{
+			"name": "Crypt Creature",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Zombie Horror",
+			"collector_number": "108",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/98_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/98_front.jpg"
+			}
+		},
+		{
+			"name": "Rotgheist",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Spirit Warrior",
+			"collector_number": "129",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/99_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/99_front.jpg"
+			}
+		},
+		{
+			"name": "Crypt Raider",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "109",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/100_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/100_front.jpg"
+			}
+		},
+		{
+			"name": "Goblin Ambusher",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Goblin Rogue",
+			"collector_number": "166",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/101_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/101_front.jpg"
+			}
+		},
+		{
+			"name": "Stand-Out Soldier",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "41",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/102_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/102_front.jpg"
+			}
+		},
+		{
+			"name": "Young Huntsman",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "240",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/103_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/103_front.jpg"
+			}
+		},
+		{
+			"name": "Living Twister",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}{U}",
+			"type": "Creature — Elemental",
+			"collector_number": "76",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/104_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/104_front.jpg"
+			}
+		},
+		{
+			"name": "Painful Painter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Gnome Bard",
+			"collector_number": "176",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/105_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/105_front.jpg"
+			}
+		},
+		{
+			"name": "Cruel Champion",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Vampire Knight",
+			"collector_number": "106",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/106_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/106_front.jpg"
+			}
+		},
+		{
+			"name": "Trash Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Raccoon Rogue",
+			"collector_number": "140",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/107_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/107_front.jpg"
+			}
+		},
+		{
+			"name": "Druid of the Pool",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Fungus Druid",
+			"collector_number": "114",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/108_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/108_front.jpg"
+			}
+		},
+		{
+			"name": "Vile Sacrifice",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Instant",
+			"collector_number": "143",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/109_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/109_front.jpg"
+			}
+		},
+		{
+			"name": "Pick Pocket",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "124",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/110_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/110_front.jpg"
+			}
+		},
+		{
+			"name": "Doom Prophecy",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "113",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/111_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/111_front.jpg"
+			}
+		},
+		{
+			"name": "Cruel Cull",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "107",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/112_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/112_front.jpg"
+			}
+		},
+		{
+			"name": "Ambitious Captain",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Pirate",
+			"collector_number": "100",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/113_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/113_front.jpg"
+			}
+		},
+		{
+			"name": "Morbid Inspector",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "122",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/114_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/114_front.jpg"
+			}
+		},
+		{
+			"name": "Place of Suffering",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "125",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/115_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/115_front.jpg"
+			}
+		},
+		{
+			"name": "Professional Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "84",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/116_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/116_front.jpg"
+			}
+		},
+		{
+			"name": "Spellsnatch",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "92",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/117_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/117_front.jpg"
+			}
+		},
+		{
+			"name": "Brazen Aquisition",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/118_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/118_front.jpg"
+			}
+		},
+		{
+			"name": "Observant Guardsman",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "30",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/119_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/119_front.jpg"
+			}
+		},
+		{
+			"name": "Enforce Legislature",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Instant",
+			"collector_number": "16",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/120_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/120_front.jpg"
+			}
+		},
+		{
+			"name": "Exacting Professor",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "62",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/121_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/121_front.jpg"
+			}
+		},
+		{
+			"name": "Jewel of Conjuration",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "71",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/122_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/122_front.jpg"
+			}
+		},
+		{
+			"name": "Joint Caser",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "72",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/123_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/123_front.jpg"
+			}
+		},
+		{
+			"name": "Nimble Thief",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "79",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/124_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/124_front.jpg"
+			}
+		},
+		{
+			"name": "Wight Stag",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Spirit Elk",
+			"collector_number": "51",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/125_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/125_front.jpg"
+			}
+		},
+		{
+			"name": "Calamity",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "10",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/126_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/126_front.jpg"
+			}
+		},
+		{
+			"name": "Sea Explorer",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Fish Dog Seal",
+			"collector_number": "90",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/127_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/127_front.jpg"
+			}
+		},
+		{
+			"name": "Keep Constructor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Dwarf Soldier",
+			"collector_number": "25",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/128_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/128_front.jpg"
+			}
+		},
+		{
+			"name": "Tough Tutelage",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "95",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/129_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/129_front.jpg"
+			}
+		},
+		{
+			"name": "Horde Sheapard",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{W}",
+			"type": "Creature — Zombie Giant",
+			"collector_number": "21",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/130_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/130_front.jpg"
+			}
+		},
+		{
+			"name": "Wild Empath",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "283",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/131_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/131_front.jpg"
+			}
+		},
+		{
+			"name": "Stalwart Northmen",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "40",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/132_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/132_front.jpg"
+			}
+		},
+		{
+			"name": "Radiant Angel",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "34",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/133_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/133_front.jpg"
+			}
+		},
+		{
+			"name": "Elk of Memories",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Elk Spirit",
+			"collector_number": "61",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/134_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/134_front.jpg"
+			}
+		},
+		{
+			"name": "Flame-Consumed Beast",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Elemental Beast",
+			"collector_number": "164",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/135_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/135_front.jpg"
+			}
+		},
+		{
+			"name": "Searing Snake",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Elemental Snake",
+			"collector_number": "183",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/136_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/136_front.jpg"
+			}
+		},
+		{
+			"name": "Fateful Discovery",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "160",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/137_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/137_front.jpg"
+			}
+		},
+		{
+			"name": "Pyromantic Redirection",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "179",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/138_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/138_front.jpg"
+			}
+		},
+		{
+			"name": "Wildman Archer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "192",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/139_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/139_front.jpg"
+			}
+		},
+		{
+			"name": "Wildman Musician",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Bard Druid",
+			"collector_number": "193",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/140_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/140_front.jpg"
+			}
+		},
+		{
+			"name": "Arcane Blast",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "147",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/141_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/141_front.jpg"
+			}
+		},
+		{
+			"name": "Children of the Pyre",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Skeleton Berserker",
+			"collector_number": "156",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/142_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/142_front.jpg"
+			}
+		},
+		{
+			"name": "Magma Lizard",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elemental Lizard",
+			"collector_number": "171",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/143_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/143_front.jpg"
+			}
+		},
+		{
+			"name": "Inspiring Shieldmaiden",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "170",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/144_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/144_front.jpg"
+			}
+		},
+		{
+			"name": "G uncommon World Awake",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "214",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/145_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/145_front.jpg"
+			}
+		},
+		{
+			"name": "G uncommon Fig Fatale",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elemental Skeleton",
+			"collector_number": "209",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/146_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/146_front.jpg"
+			}
+		},
+		{
+			"name": "G un Scout",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "206",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/147_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/147_front.jpg"
+			}
+		},
+		{
+			"name": "G uncommon Floral Foil",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}",
+			"type": "Instant",
+			"collector_number": "211",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/148_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/148_front.jpg"
+			}
+		},
+		{
+			"name": "Consuming Overgrowth",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Instant",
+			"collector_number": "199",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/149_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/149_front.jpg"
+			}
+		},
+		{
+			"name": "G uncommon Tropical Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "212",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/150_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/150_front.jpg"
+			}
+		},
+		{
+			"name": "Magma Tortise",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Elemental Turtle",
+			"collector_number": "172",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/151_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/151_front.jpg"
+			}
+		},
+		{
+			"name": "G uncommon Barkwolf Pack",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Wolf Plant",
+			"collector_number": "207",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/152_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/152_front.jpg"
+			}
+		},
+		{
+			"name": "G uncommon Wild Chimera",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Ape Bird Boar Spider Chimera",
+			"collector_number": "213",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/153_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/153_front.jpg"
+			}
+		},
+		{
+			"name": "Rothand Bug",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Insect Rogue",
+			"collector_number": "230",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/154_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/154_front.jpg"
+			}
+		},
+		{
+			"name": "Favorite Scarecrow",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Scarecrow",
+			"collector_number": "295",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/155_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/155_front.jpg"
+			}
+		},
+		{
+			"name": "Imagine the Past",
+			"rarity": "common",
+			"mana_cost": "{G}{U}",
+			"type": "Instant",
+			"collector_number": "262",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/156_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/156_front.jpg"
+			}
+		},
+		{
+			"name": "Desert Revenant",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Zombie Spirit",
+			"collector_number": "249",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/157_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/157_front.jpg"
+			}
+		},
+		{
+			"name": "BMutual Death",
+			"rarity": "common",
+			"mana_cost": "{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "244",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/158_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/158_front.jpg"
+			}
+		},
+		{
+			"name": "Watchful Treescale",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Creature — Lizard Plant",
+			"collector_number": "281",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/159_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/159_front.jpg"
+			}
+		},
+		{
+			"name": "Bog Hounds",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Dog Beast",
+			"collector_number": "245",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/160_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/160_front.jpg"
+			}
+		},
+		{
+			"name": "Ash Strider",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{W}",
+			"type": "Creature — Elemental",
+			"collector_number": "241",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/161_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/161_front.jpg"
+			}
+		},
+		{
+			"name": "Spycraft",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "273",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/162_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/162_front.jpg"
+			}
+		},
+		{
+			"name": "Mindless Strike",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "266",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/163_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/163_front.jpg"
+			}
+		},
+		{
+			"name": "Inciting Incident",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Instant",
+			"collector_number": "264",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/164_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/164_front.jpg"
+			}
+		},
+		{
+			"name": "Northern Magic",
+			"rarity": "common",
+			"mana_cost": "{W/U}",
+			"type": "Instant",
+			"collector_number": "291",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/165_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/165_front.jpg"
+			}
+		},
+		{
+			"name": "Watch the Sunset",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "280",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/166_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/166_front.jpg"
+			}
+		},
+		{
+			"name": "WWar Companions",
+			"rarity": "common",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Dog Cat Warrior",
+			"collector_number": "288",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/167_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/167_front.jpg"
+			}
+		},
+		{
+			"name": "Fildegarde Berzerk",
+			"rarity": "common",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "253",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/168_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/168_front.jpg"
+			}
+		},
+		{
+			"name": "Lunacy Beast",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{B}",
+			"type": "Creature — Zombie Horror",
+			"collector_number": "265",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/169_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/169_front.jpg"
+			}
+		},
+		{
+			"name": "Transformation Sage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Merfolk Druid",
+			"collector_number": "277",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/170_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/170_front.jpg"
+			}
+		},
+		{
+			"name": "Calcium Wurm",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Creature — Wurm",
+			"collector_number": "246",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/171_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/171_front.jpg"
+			}
+		},
+		{
+			"name": "Vulture Shaman",
+			"rarity": "common",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Vulture Druid",
+			"collector_number": "279",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/172_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/172_front.jpg"
+			}
+		},
+		{
+			"name": "Wildlure Dryad",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Dryad",
+			"collector_number": "285",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/173_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/173_front.jpg"
+			}
+		},
+		{
+			"name": "Festival Band",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "252",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/174_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/174_front.jpg"
+			}
+		},
+		{
+			"name": "Furious Titan",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{R}",
+			"type": "Creature — Giant",
+			"collector_number": "255",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/175_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/175_front.jpg"
+			}
+		},
+		{
+			"name": "Winged Enthusiast",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Creature — Harpy Wizard",
+			"collector_number": "286",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/176_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/176_front.jpg"
+			}
+		},
+		{
+			"name": "Giant Magus",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{G}",
+			"type": "Creature — Giant Wizard",
+			"collector_number": "256",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/177_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/177_front.jpg"
+			}
+		},
+		{
+			"name": "WB signpost Duran, the Exile",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Elf Knight",
+			"collector_number": "282",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/178_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/178_front.jpg"
+			}
+		},
+		{
+			"name": "Black Market Vendor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Human Rogue Advisor",
+			"collector_number": "243",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/179_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/179_front.jpg"
+			}
+		},
+		{
+			"name": "Tropic Elemental",
+			"rarity": "common",
+			"mana_cost": "{6}{G}{U}",
+			"type": "Creature — Elemental Giant",
+			"collector_number": "278",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/180_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/180_front.jpg"
+			}
+		},
+		{
+			"name": "Empathic Farmer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Druid",
+			"collector_number": "15",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/181_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/181_front.jpg"
+			}
+		},
+		{
+			"name": "Hemopotence",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Instant",
+			"collector_number": "259",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/182_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/182_front.jpg"
+			}
+		},
+		{
+			"name": "Mountain Shephard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Dwarf Druid",
+			"collector_number": "267",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/183_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/183_front.jpg"
+			}
+		},
+		{
+			"name": "Zadomian Ouab",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Spirit Cleric",
+			"collector_number": "289",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/184_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/184_front.jpg"
+			}
+		},
+		{
+			"name": "Grotesquosity",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{G}",
+			"type": "Creature — Spider Leech Wurm",
+			"collector_number": "258",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/185_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/185_front.jpg"
+			}
+		},
+		{
+			"name": "Wheel and Deal",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "144",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/186_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/186_front.jpg"
+			}
+		},
+		{
+			"name": "Many Bears",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "223",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/187_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/187_front.jpg"
+			}
+		},
+		{
+			"name": "The Hollow Spark",
+			"rarity": "rare",
+			"mana_cost": "{0}",
+			"type": "Legendary Artifact",
+			"collector_number": "298",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/188_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/188_front.jpg"
+			}
+		},
+		{
+			"name": "Monumental Synergy",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "29",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/189_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/189_front.jpg"
+			}
+		},
+		{
+			"name": "Stoutly, Wisest of the Pack",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}{W}",
+			"type": "Legendary Creature — Dog Knight",
+			"collector_number": "274",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/190_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/190_front.jpg"
+			}
+		},
+		{
+			"name": "Randelar, Old Scop",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{U}{R}",
+			"type": "Legendary Creature — Dwarf Bard",
+			"collector_number": "270",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/191_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/191_front.jpg"
+			}
+		},
+		{
+			"name": "Judgement",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "24",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/192_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/192_front.jpg"
+			}
+		},
+		{
+			"name": "Revenant Dead",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "127",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/193_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/193_front.jpg"
+			}
+		},
+		{
+			"name": "Finsey Cohegan, Blood Born",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}{B}",
+			"type": "Legendary Creature — Human Vampire Warrior",
+			"collector_number": "254",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/194_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/194_front.jpg"
+			}
+		},
+		{
+			"name": "Emily and the Thieves' Guild",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Legendary Creature — Rogue",
+			"collector_number": "251",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/195_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/195_front.jpg"
+			}
+		},
+		{
+			"name": "Godfrey of Valderlot",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}{W}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "18",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/196_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/196_front.jpg"
+			}
+		},
+		{
+			"name": "Death from the Deep",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Creature — Leviathan",
+			"collector_number": "290",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/197_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/197_front.jpg"
+			}
+		},
+		{
+			"name": "Natural Synergy",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "227",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/198_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/198_front.jpg"
+			}
+		},
+		{
+			"name": "Unstable Experiment",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "189",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/199_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/199_front.jpg"
+			}
+		},
+		{
+			"name": "Knowledge",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Elemental Incarnation",
+			"collector_number": "73",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/200_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/200_front.jpg"
+			}
+		},
+		{
+			"name": "Exploit Weakness",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "115",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/201_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/201_front.jpg"
+			}
+		},
+		{
+			"name": "Vengeful Boar",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Zombie Boar",
+			"collector_number": "142",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/202_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/202_front.jpg"
+			}
+		},
+		{
+			"name": "Poison Potionmaster",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "126",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/203_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/203_front.jpg"
+			}
+		},
+		{
+			"name": "Moss Fae",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elemental Faerie",
+			"collector_number": "225",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/204_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/204_front.jpg"
+			}
+		},
+		{
+			"name": "Bramblewall",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Plant Wall",
+			"collector_number": "197",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/205_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/205_front.jpg"
+			}
+		},
+		{
+			"name": "Combatative Companion",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Dog",
+			"collector_number": "198",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/206_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/206_front.jpg"
+			}
+		},
+		{
+			"name": "Temple Keeper",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Monk",
+			"collector_number": "187",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/207_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/207_front.jpg"
+			}
+		},
+		{
+			"name": "Raging Raider",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "180",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/208_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/208_front.jpg"
+			}
+		},
+		{
+			"name": "Inferno",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "169",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/209_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/209_front.jpg"
+			}
+		},
+		{
+			"name": "Highrise Infiltrator",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "68",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/210_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/210_front.jpg"
+			}
+		},
+		{
+			"name": "Cleric of Transition",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "56",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/211_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/211_front.jpg"
+			}
+		},
+		{
+			"name": "Rogue's Card Trick",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "89",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/212_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/212_front.jpg"
+			}
+		},
+		{
+			"name": "Elder Elephant",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Elephant",
+			"collector_number": "14",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/213_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/213_front.jpg"
+			}
+		},
+		{
+			"name": "Dead Bride",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "13",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/214_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/214_front.jpg"
+			}
+		},
+		{
+			"name": "Fearless Aggression",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "161",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/215_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/215_front.jpg"
+			}
+		},
+		{
+			"name": "Faerie Weaver",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Faeire Rogue",
+			"collector_number": "63",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/216_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/216_front.jpg"
+			}
+		},
+		{
+			"name": "Thrillseeker Thief",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "93",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/217_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/217_front.jpg"
+			}
+		},
+		{
+			"name": "Unweave",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "96",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/218_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/218_front.jpg"
+			}
+		},
+		{
+			"name": "Incense-burning Pacifier",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "23",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/219_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/219_front.jpg"
+			}
+		},
+		{
+			"name": "Hunting Dog",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Conjured Creature — Dog",
+			"collector_number": "22",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/220_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/220_front.jpg"
+			}
+		},
+		{
+			"name": "Pirate's Gliderwings",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "300",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/221_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/221_front.jpg"
+			}
+		},
+		{
+			"name": "Palisade",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Soldier Wall",
+			"collector_number": "299",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/222_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/222_front.jpg"
+			}
+		},
+		{
+			"name": "Devious Synergy",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/223_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/223_front.jpg"
+			}
+		},
+		{
+			"name": "Wall of Scholars",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Wizard Wall",
+			"collector_number": "49",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/224_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/224_front.jpg"
+			}
+		},
+		{
+			"name": "Sabertooth",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Cat",
+			"collector_number": "36",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/225_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/225_front.jpg"
+			}
+		},
+		{
+			"name": "Sandsoar Gryphon",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Gryphon",
+			"collector_number": "37",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/226_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/226_front.jpg"
+			}
+		},
+		{
+			"name": "Arcane Prayer",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "6",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/227_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/227_front.jpg"
+			}
+		},
+		{
+			"name": "Wall of Secrets",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Wall",
+			"collector_number": "97",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/228_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/228_front.jpg"
+			}
+		},
+		{
+			"name": "Freeze Forever",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "64",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/229_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/229_front.jpg"
+			}
+		},
+		{
+			"name": "Young Pixie",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Faerie",
+			"collector_number": "99",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/230_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/230_front.jpg"
+			}
+		},
+		{
+			"name": "Colossal Squid",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Giant Squid",
+			"collector_number": "58",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/231_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/231_front.jpg"
+			}
+		},
+		{
+			"name": "Grave Robbery",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "117",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/232_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/232_front.jpg"
+			}
+		},
+		{
+			"name": "Horde Horror",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{B}",
+			"type": "Creature — Spirit Horror",
+			"collector_number": "118",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/233_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/233_front.jpg"
+			}
+		},
+		{
+			"name": "Novice Necromancer",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "123",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/234_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/234_front.jpg"
+			}
+		},
+		{
+			"name": "Shroud",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "133",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/235_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/235_front.jpg"
+			}
+		},
+		{
+			"name": "Spiked Bear",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Bear Porcupine",
+			"collector_number": "235",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/236_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/236_front.jpg"
+			}
+		},
+		{
+			"name": "G uncommon Brave the Wilds",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "208",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/237_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/237_front.jpg"
+			}
+		},
+		{
+			"name": "Elven Archers",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Elf Warrior",
+			"collector_number": "204",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/238_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/238_front.jpg"
+			}
+		},
+		{
+			"name": "Mighty Blow",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "224",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/239_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/239_front.jpg"
+			}
+		},
+		{
+			"name": "Skeletonization",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Instant",
+			"collector_number": "184",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/240_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/240_front.jpg"
+			}
+		},
+		{
+			"name": "Perched Pheonix",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Pheonix",
+			"collector_number": "177",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/241_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/241_front.jpg"
+			}
+		},
+		{
+			"name": "Giant Berzerks",
+			"rarity": "common",
+			"mana_cost": "{7}{R}",
+			"type": "Creature — Giant Berserker",
+			"collector_number": "165",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/242_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/242_front.jpg"
+			}
+		},
+		{
+			"name": "Odd Gecko",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Lizard",
+			"collector_number": "174",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/243_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/243_front.jpg"
+			}
+		},
+		{
+			"name": "Rush of Violence",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "271",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/244_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/244_front.jpg"
+			}
+		},
+		{
+			"name": "Creature of Myth",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Creature — Beast",
+			"collector_number": "247",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/245_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/245_front.jpg"
+			}
+		},
+		{
+			"name": "Horde Summoning",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "260",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/246_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/246_front.jpg"
+			}
+		},
+		{
+			"name": "Hydroconjuration",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "261",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/247_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/247_front.jpg"
+			}
+		},
+		{
+			"name": "Novice Electromancy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "268",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/248_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/248_front.jpg"
+			}
+		},
+		{
+			"name": "Transformation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "276",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/249_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/249_front.jpg"
+			}
+		},
+		{
+			"name": "Thief's Highway",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "275",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/250_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/250_front.jpg"
+			}
+		},
+		{
+			"name": "Battle Tactics",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "7",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/251_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/251_front.jpg"
+			}
+		},
+		{
+			"name": "Sudden Miasma",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "137",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/252_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/252_front.jpg"
+			}
+		},
+		{
+			"name": "Animated Black Pool Muck",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Ooze",
+			"collector_number": "194",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/253_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/253_front.jpg"
+			}
+		},
+		{
+			"name": "Selfless Student",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "38",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/254_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/254_front.jpg"
+			}
+		},
+		{
+			"name": "G uncommon Find the Path",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "210",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/255_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/255_front.jpg"
+			}
+		},
+		{
+			"name": "Cataclysm, Dark Spark",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Meta Planeswalker — Cataclysm",
+			"collector_number": "301",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/256_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/256_front.jpg"
+			}
+		},
+		{
+			"name": "Permanence Transference",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "269",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/257_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/257_front.jpg"
+			}
+		},
+		{
+			"name": "Worldwhirl",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "287",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/258_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/258_front.jpg"
+			}
+		},
+		{
+			"name": "Elemental Mastery",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "250",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/259_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/259_front.jpg"
+			}
+		},
+		{
+			"name": "Giant Wurm",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}{G}{G}{G}{G}",
+			"type": "Creature — Giant Wurm",
+			"collector_number": "215",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/260_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/260_front.jpg"
+			}
+		},
+		{
+			"name": "Lotus Guardian",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Treefolk",
+			"collector_number": "221",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/261_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/261_front.jpg"
+			}
+		},
+		{
+			"name": "Mad Specter",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Specter",
+			"collector_number": "120",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/262_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/262_front.jpg"
+			}
+		},
+		{
+			"name": "Shred the Planeveil",
+			"rarity": "mythic",
+			"mana_cost": "{19}{B}",
+			"type": "Sorcery",
+			"collector_number": "132",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/263_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/263_front.jpg"
+			}
+		},
+		{
+			"name": "Time Shunt",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/264_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/264_front.jpg"
+			}
+		},
+		{
+			"name": "Magical Synergy",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/265_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/265_front.jpg"
+			}
+		},
+		{
+			"name": "Behold the Planeveil",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/266_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/266_front.jpg"
+			}
+		},
+		{
+			"name": "Unfair Trade",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Instant",
+			"collector_number": "44",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/267_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/267_front.jpg"
+			}
+		},
+		{
+			"name": "Crysden Mallus",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Legendary Creature — Human Rogue Wizard",
+			"collector_number": "157",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/268_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/268_front.jpg"
+			}
+		},
+		{
+			"name": "Reckless Challenger",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "182",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/269_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/269_front.jpg"
+			}
+		},
+		{
+			"name": "Spontaneous Synergy",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "186",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/270_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/270_front.jpg"
+			}
+		},
+		{
+			"name": "Mind Heist",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "121",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/271_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/271_front.jpg"
+			}
+		},
+		{
+			"name": "Spawn of the Black Pool",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Zombie Fungus",
+			"collector_number": "272",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/272_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/272_front.jpg"
+			}
+		},
+		{
+			"name": "Crimson Count",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Vampire",
+			"collector_number": "248",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/273_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/273_front.jpg"
+			}
+		},
+		{
+			"name": "Wild Wrathound",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Dog Beast",
+			"collector_number": "284",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/274_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/274_front.jpg"
+			}
+		},
+		{
+			"name": "Skeleton",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Skeleton",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/275.jpg"
+			}
+		},
+		{
+			"name": "Goat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Goat",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/276.jpg"
+			}
+		},
+		{
+			"name": "For the Fallen",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Conjured Sorcery",
+			"collector_number": "17",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/277_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/277_front.jpg"
+			}
+		},
+		{
+			"name": "Scarab",
+			"rarity": "common",
+			"mana_cost": "{X}{W/U}",
+			"type": "Conjured Creature — Insect",
+			"collector_number": "293",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/278_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/278_front.jpg"
+			}
+		},
+		{
+			"name": "Perched Lion",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Cat",
+			"collector_number": "31",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/279_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/279_front.jpg"
+			}
+		},
+		{
+			"name": "Water",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Conjured Sorcery",
+			"collector_number": "98",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/280_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/280_front.jpg"
+			}
+		},
+		{
+			"name": "Air",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Conjured Sorcery",
+			"collector_number": "4",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/281_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/281_front.jpg"
+			}
+		},
+		{
+			"name": "Burst Elemental",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Conjured Creature — Elemental",
+			"collector_number": "154",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/282_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/282_front.jpg"
+			}
+		},
+		{
+			"name": "Grizzly Bear",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Conjured Creature — Bear",
+			"collector_number": "218",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/283_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/283_front.jpg"
+			}
+		},
+		{
+			"name": "Improved Electromancy",
+			"rarity": "common",
+			"mana_cost": "{U}{R}",
+			"type": "Conjured Sorcery",
+			"collector_number": "263",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/284_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/284_front.jpg"
+			}
+		},
+		{
+			"name": "Perfect Electromancy",
+			"rarity": "common",
+			"mana_cost": "{U/R}",
+			"type": "Conjured Sorcery",
+			"collector_number": "292",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/285_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/285_front.jpg"
+			}
+		},
+		{
+			"name": "Magical Foxling",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Conjured Creature — Fox Spirit",
+			"collector_number": "1",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/286_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/286_front.jpg"
+			}
+		},
+		{
+			"name": "Reform",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Conjured Sorcery",
+			"collector_number": "86",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/287_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/287_front.jpg"
+			}
+		},
+		{
+			"name": "Offensive Painting",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Conjured Sorcery",
+			"collector_number": "175",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/288_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/288_front.jpg"
+			}
+		},
+		{
+			"name": "Forest Troll",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Conjured Creature — Troll",
+			"collector_number": "205",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/289_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/289_front.jpg"
+			}
+		},
+		{
+			"name": "Pilfer",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Conjured Sorcery",
+			"collector_number": "2",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/290_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/290_front.jpg"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/291.jpg"
+			}
+		},
+		{
+			"name": "Study",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Conjured Sorcery",
+			"collector_number": "3",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/292_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/292_front.jpg"
+			}
+		},
+		{
+			"name": "Apocalypse",
+			"rarity": "common",
+			"mana_cost": "{0}",
+			"type": "Conjured Sorcery",
+			"collector_number": "101",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/293_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/293_front.jpg"
+			}
+		},
+		{
+			"name": "Shred the Planeveil Emblem",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/294.jpg"
+			}
+		},
+		{
+			"name": "Guardian of Zadoma",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Shapeshifter",
+			"collector_number": "297",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/295_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/295_front.jpg"
+			}
+		},
+		{
+			"name": "The Gray Witch",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Zombie Wizard",
+			"collector_number": "257",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/296_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/296_front.jpg"
+			}
+		},
+		{
+			"name": "Help I Dont Know Math",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Reminder",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/297.jpg"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/298.jpg"
+			}
+		},
+		{
+			"name": "Fire",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Conjured Sorcery",
+			"collector_number": "163",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/299_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/299_front.jpg"
+			}
+		},
+		{
+			"name": "Earth",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Conjured Sorcery",
+			"collector_number": "202",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/300_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/300_front.jpg"
+			}
+		},
+		{
+			"name": "Crysden, New Spark",
+			"rarity": "special",
+			"mana_cost": "{X}{U}{R}{W}",
+			"type": "Legendary Meta Planeswalker — Crysden",
+			"collector_number": "302",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/301_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/301_front.jpg"
+			}
+		},
+		{
+			"name": "Giant Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Giant Elemental",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/302.jpg"
+			}
+		},
+		{
+			"name": "Educate",
+			"rarity": "common",
+			"mana_cost": "{X}{U}",
+			"type": "Conjured Sorcery",
+			"collector_number": "60",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/303_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/303_front.jpg"
+			}
+		},
+		{
+			"name": "Frigid Wind",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Conjured Sorcery",
+			"collector_number": "65",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/304_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/304_front.jpg"
+			}
+		},
+		{
+			"name": "White Wolf",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Conjured Creature — Wolf",
+			"collector_number": "50",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/305_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/305_front.jpg"
+			}
+		},
+		{
+			"name": "The Ballad of Hidson Shieldsong",
+			"rarity": "common",
+			"mana_cost": "{0}",
+			"type": "Conjured Enchantment — Saga",
+			"collector_number": "242",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/306_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/306_front.jpg"
+			}
+		},
+		{
+			"name": "Wurm",
+			"rarity": "special",
+			"mana_cost": "{10}",
+			"type": "Token Creature — Wurm",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/307.jpg"
+			}
+		},
+		{
+			"name": "Immortal Snail",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature",
+			"collector_number": "119",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/308_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/308_front.jpg"
+			}
+		},
+		{
+			"name": "Haunted Golem",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Spirit Construct",
+			"collector_number": "67",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://filthycasual564.github.io/sets/MTA-files/img/309_back.jpg"
+				}
+			},
+			"image_uris": {
+				"en": "https://filthycasual564.github.io/sets/MTA-files/img/309_front.jpg"
+			}
+		},
+	]
+
+[rare(1)]
+	5 Calamity
+	5 Wheel and Deal
+	5 Many Bears
+	5 The Hollow Spark
+	5 Monumental Synergy
+	5 Stoutly, Wisest of the Pack
+	5 Randelar, Old Scop
+	5 Judgement
+	5 Revenant Dead
+	5 Finsey Cohegan, Blood Born
+	5 Emily and the Thieves' Guild
+	5 Godfrey of Valderlot
+	5 Death from the Deep
+	5 Natural Synergy
+	5 Unstable Experiment
+	5 Knowledge
+	5 Devious Synergy
+	5 Permanence Transference
+	5 Worldwhirl
+	5 Elemental Mastery
+	5 Giant Wurm
+	5 Lotus Guardian
+	5 Mad Specter
+	5 Shred the Planeveil
+	5 Time Shunt
+	5 Magical Synergy
+	5 Behold the Planeveil
+	5 Crysden Mallus
+	5 Reckless Challenger
+	5 Spontaneous Synergy
+	5 Mind Heist
+	5 The Gray Witch
+[uncommon(3)]
+	5 Troll Collector
+	5 Playful Tricksters
+	5 Raid Captain
+	5 Burning Power Mage
+	5 Stand-Out Soldier
+	5 Young Huntsman
+	5 Living Twister
+	5 Painful Painter
+	5 Cruel Champion
+	5 Trash Thief
+	5 Druid of the Pool
+	5 Vile Sacrifice
+	5 Pick Pocket
+	5 Doom Prophecy
+	5 Ambitious Captain
+	5 Morbid Inspector
+	5 Place of Suffering
+	5 Professional Thief
+	5 Spellsnatch
+	5 Brazen Aquisition
+	5 Observant Guardsman
+	5 Enforce Legislature
+	5 Exacting Professor
+	5 Jewel of Conjuration
+	5 Joint Caser
+	5 Nimble Thief
+	5 Wight Stag
+	5 Sea Explorer
+	5 Keep Constructor
+	5 Tough Tutelage
+	5 Horde Sheapard
+	5 Wild Empath
+	5 Radiant Angel
+	5 Flame-Consumed Beast
+	5 Searing Snake
+	5 Fateful Discovery
+	5 Pyromantic Redirection
+	5 Wildman Musician
+	5 Children of the Pyre
+	5 Magma Lizard
+	5 G uncommon World Awake
+	5 G uncommon Fig Fatale
+	5 G un Scout
+	5 G uncommon Floral Foil
+	5 G uncommon Tropical Hydra
+	5 Magma Tortise
+	5 G uncommon Barkwolf Pack
+	5 G uncommon Wild Chimera
+	5 Rothand Bug
+	5 Transformation Sage
+	5 Winged Enthusiast
+	5 Giant Magus
+	5 WB signpost Duran, the Exile
+	5 Black Market Vendor
+	5 Empathic Farmer
+	5 Hemopotence
+	5 Mountain Shephard
+	5 Zadomian Ouab
+	5 Grotesquosity
+	5 Inferno
+	5 Horde Horror
+	5 G uncommon Brave the Wilds
+	5 Rush of Violence
+	5 Creature of Myth
+	5 Horde Summoning
+	5 Hydroconjuration
+	5 Novice Electromancy
+	5 Transformation
+	5 Thief's Highway
+	5 Battle Tactics
+	5 Sudden Miasma
+	5 Animated Black Pool Muck
+	5 Selfless Student
+	5 G uncommon Find the Path
+	5 Unfair Trade
+	5 Spawn of the Black Pool
+	5 Crimson Count
+	5 Wild Wrathound
+	5 Guardian of Zadoma
+	5 Immortal Snail
+	5 Haunted Golem
+[common(10)]
+	5 Hunting Predator
+	5 Phantasmal Falcon
+	5 Elder Treefolk
+	5 Reflexive Reposte
+	5 Cloudsoar Drake
+	5 Dancing Ghost
+	5 Unusually Large Sheepdog
+	5 Living Bones
+	5 Portal Prison
+	5 Valderlot Footman
+	5 Plains Keldimat
+	5 Bounding Windhound
+	5 Tundra Protector
+	5 Snowbound Scop
+	5 Valderlot Battle-Cleric
+	5 Wilderness Angel
+	5 Haunting Pack
+	5 Magic Defenses
+	5 Lead Battalion
+	5 Ancestral Spirit Blade
+	5 Graveyard Ghasts
+	5 Bored Student
+	5 Repulsion Blast
+	5 Discovery of Magic
+	5 Mystic Duelist
+	5 Frostomancer
+	5 Hydroshift
+	5 Rogue Mage
+	5 Shape-Caster Novice
+	5 Cloudfish
+	5 Old Harpy
+	5 Learn to Fly
+	5 Placid Lionwhale
+	5 Alchemy Instructor
+	5 Large Crustacean
+	5 Reef Artisan
+	5 Hydromage
+	5 Valderlot Guardian
+	5 Dusk Drake
+	5 Vengeful Apparation
+	5 Pyrodog
+	5 Wild Dinosaur
+	5 Smash to Rubble
+	5 Thrill of Learning
+	5 Break Through
+	5 Blade of Fortune
+	5 Hordespur Ghoul
+	5 Bloodseeker Vampire
+	5 Vampire's Plaything
+	5 Bloodaxe Berzerk
+	5 Feral Shaman
+	5 Blood-Borne Demon
+	5 Burstfire Mage
+	5 Desciple of Delingarde
+	5 Monster Hunter
+	5 Sand Whale
+	5 Vine Armor
+	5 Berzerk Challenger
+	5 Gigantic Growth
+	5 Showdown
+	5 Deepwood Animator
+	5 Transitional Verdance
+	5 Sage of Health
+	5 Beastkin Druid
+	5 Tombtaster Ooze
+	5 Mucous Shroom
+	5 Great Wood Communing
+	5 Dune Snake
+	5 Unwary Trollseekers
+	5 Man of the Woods
+	5 Herd of Rhinobeetles
+	5 Horngreg
+	5 Overgrowth Tortise
+	5 Rhinopine
+	5 Sandtrotting Drakosaur
+	5 Witch's Familiar
+	5 Swamp Toad
+	5 Spontaneous Reanimation
+	5 Fight Dirty
+	5 Zombster
+	5 Sanity Sap
+	5 Slay
+	5 Beast of Decay
+	5 Darkhound
+	5 Corpse Seeker
+	5 Scavenging Opportunist
+	5 Bloodhorde General
+	5 Cursed Berzerk
+	5 Rogueish Moonlighter
+	5 Black Market Fence
+	5 fixing Fox Carving
+	5 Bomb
+	5 Thirsty Vampire
+	5 Skulking Rat
+	5 Crypt Creature
+	5 Rotgheist
+	5 Crypt Raider
+	5 Goblin Ambusher
+	5 Cruel Cull
+	5 Stalwart Northmen
+	5 Elk of Memories
+	5 Wildman Archer
+	5 Arcane Blast
+	5 Inspiring Shieldmaiden
+	5 Consuming Overgrowth
+	5 Favorite Scarecrow
+	5 Imagine the Past
+	5 Desert Revenant
+	5 BMutual Death
+	5 Watchful Treescale
+	5 Bog Hounds
+	5 Ash Strider
+	5 Spycraft
+	5 Mindless Strike
+	5 Inciting Incident
+	5 Northern Magic
+	5 Watch the Sunset
+	5 WWar Companions
+	5 Fildegarde Berzerk
+	5 Lunacy Beast
+	5 Calcium Wurm
+	5 Vulture Shaman
+	5 Wildlure Dryad
+	5 Festival Band
+	5 Furious Titan
+	5 Tropic Elemental
+	5 Exploit Weakness
+	5 Vengeful Boar
+	5 Poison Potionmaster
+	5 Moss Fae
+	5 Bramblewall
+	5 Combatative Companion
+	5 Temple Keeper
+	5 Raging Raider
+	5 Highrise Infiltrator
+	5 Cleric of Transition
+	5 Rogue's Card Trick
+	5 Elder Elephant
+	5 Dead Bride
+	5 Fearless Aggression
+	5 Faerie Weaver
+	5 Thrillseeker Thief
+	5 Unweave
+	5 Incense-burning Pacifier
+	5 Hunting Dog
+	5 Pirate's Gliderwings
+	5 Palisade
+	5 Wall of Scholars
+	5 Sabertooth
+	5 Sandsoar Gryphon
+	5 Arcane Prayer
+	5 Wall of Secrets
+	5 Freeze Forever
+	5 Young Pixie
+	5 Colossal Squid
+	5 Grave Robbery
+	5 Novice Necromancer
+	5 Shroud
+	5 Spiked Bear
+	5 Elven Archers
+	5 Mighty Blow
+	5 Skeletonization
+	5 Perched Pheonix
+	5 Giant Berzerks
+	5 Odd Gecko
+	5 For the Fallen
+	5 Scarab
+	5 Perched Lion
+	5 Water
+	5 Air
+	5 Burst Elemental
+	5 Grizzly Bear
+	5 Improved Electromancy
+	5 Perfect Electromancy
+	5 Magical Foxling
+	5 Reform
+	5 Offensive Painting
+	5 Forest Troll
+	5 Pilfer
+	5 Study
+	5 Apocalypse
+	5 Fire
+	5 Earth
+	5 Educate
+	5 Frigid Wind
+	5 White Wolf
+	5 The Ballad of Hidson Shieldsong
