@@ -92,7 +92,7 @@ Whenever this creature becomes the target of a spell, transform it. This ability
 If this creature would die, remove all damage from it, tap it, and transform it instead.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/2_front.jpg" num="187a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/2_front.jpg" num="189a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -111,7 +111,7 @@ If this creature would die, remove all damage from it, tap it, and transform it 
 			<name>Forest</name>
 			<text>---
 (Front): Elder Treefolk</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/2_back.jpg" num="187b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/2_back.jpg" num="189b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2209,7 +2209,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<name>Sand Whale</name>
 			<text>---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/59_front.jpg" num="214a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/59_front.jpg" num="210a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2228,7 +2228,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<name>Forest</name>
 			<text>---
 (Front): Sand Whale</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/59_back.jpg" num="214b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/59_back.jpg" num="210b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2246,7 +2246,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<text>Target creature you control gets +0/+2 and gains reach. Untap it.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/60_front.jpg" num="221a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/60_front.jpg" num="219a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2264,7 +2264,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<name>Forest</name>
 			<text>---
 (Front): Vine Armor</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/60_back.jpg" num="221b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/60_back.jpg" num="219b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2282,7 +2282,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<text>This creature can&apos;t be blocked by more than one creature.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/61_front.jpg" num="181a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/61_front.jpg" num="182a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2301,7 +2301,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<name>Forest</name>
 			<text>---
 (Front): Berzerk Challenger</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/61_back.jpg" num="181b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/61_back.jpg" num="182b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2319,7 +2319,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<text>Target creature gets +3/+3 until end of turn.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/62_front.jpg" num="199a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/62_front.jpg" num="195a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2337,7 +2337,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<name>Forest</name>
 			<text>---
 (Front): Gigantic Growth</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/62_back.jpg" num="199b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/62_back.jpg" num="195b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2355,7 +2355,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<text>Target creature you control fights target creature you don&apos;t control.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/63_front.jpg" num="216a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/63_front.jpg" num="213a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2373,7 +2373,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 			<name>Forest</name>
 			<text>---
 (Front): Showdown</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/63_back.jpg" num="216b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/63_back.jpg" num="213b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2392,7 +2392,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 When this creature transforms into a land or dies, you gain 2 life and create a 1/1 white Skeleton creature token with &quot;this token can&apos;t block.&quot;
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/64_front.jpg" num="185a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/64_front.jpg" num="187a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2411,7 +2411,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 			<name>Forest</name>
 			<text>---
 (Front): Deepwood Animator</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/64_back.jpg" num="185b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/64_back.jpg" num="187b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2431,7 +2431,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 • Transform target nonland permanent you control.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/65_front.jpg" num="219a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/65_front.jpg" num="216a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2449,7 +2449,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 			<name>Forest</name>
 			<text>---
 (Front): Transitional Verdance</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/65_back.jpg" num="219b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/65_back.jpg" num="216b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2467,7 +2467,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 			<text>When this permanent enters or transforms into this creature, you gain life equal to the greatest power among creatures you control.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/66_front.jpg" num="213a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/66_front.jpg" num="209a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2486,7 +2486,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 			<name>Forest</name>
 			<text>---
 (Front): Sage of Health</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/66_back.jpg" num="213b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/66_back.jpg" num="209b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2504,7 +2504,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 			<text>Whenever a creature you control deals 4 or more combat damage, this creature becomes a Beast with base power and toughness 3/3 and gains trample. It loses all other creature types and this ability.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/67_front.jpg" num="180a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/67_front.jpg" num="181a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2523,7 +2523,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 			<name>Forest</name>
 			<text>---
 (Front): Beastkin Druid</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/67_back.jpg" num="180b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/67_back.jpg" num="181b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2541,7 +2541,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 			<text>{G}: Exile target card in an opponent&apos;s graveyard. If you do, this creature gets +1/+1 until end of turn.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/68_front.jpg" num="218a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/68_front.jpg" num="215a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2560,7 +2560,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 			<name>Forest</name>
 			<text>---
 (Front): Tombtaster Ooze</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/68_back.jpg" num="218b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/68_back.jpg" num="215b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2579,7 +2579,7 @@ When this creature transforms into a land or dies, you gain 2 life and create a 
 As long as an opponent has 13 or fewer cards in their library, this creature gets +2/+1.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/69_front.jpg" num="208a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/69_front.jpg" num="204a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2598,7 +2598,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 			<name>Forest</name>
 			<text>---
 (Front): Mucous Shroom</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/69_back.jpg" num="208b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/69_back.jpg" num="204b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2616,7 +2616,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 			<text>Reveal the top four cards of your library. Put up to one permanent card and up to one blank card from among them into your hand. Shuffle the rest into your library. (Cards, spells, and nontoken permanents are blank if they have no ability text.)
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/70_front.jpg" num="200a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/70_front.jpg" num="196a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2634,7 +2634,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 			<name>Forest</name>
 			<text>---
 (Front): Great Wood Communing</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/70_back.jpg" num="200b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/70_back.jpg" num="196b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2652,7 +2652,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 			<text>Deathtouch
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/71_front.jpg" num="186a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/71_front.jpg" num="188a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2671,7 +2671,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 			<name>Forest</name>
 			<text>---
 (Front): Dune Snake</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/71_back.jpg" num="186b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/71_back.jpg" num="188b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2689,7 +2689,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 			<text>When this creature enters, conjure a card named Forest Troll onto the battlefield as a land tapped.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/72_front.jpg" num="220a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/72_front.jpg" num="218a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2708,7 +2708,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 			<name>Forest</name>
 			<text>---
 (Front): Unwary Trollseekers</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/72_back.jpg" num="220b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/72_back.jpg" num="218b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2727,7 +2727,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 {4}{G}{G}, {T}: Transform target land you control. If you do, transform this creature. Activate only as a sorcery.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/73_front.jpg" num="204a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/73_front.jpg" num="200a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2746,7 +2746,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 			<name>Forest</name>
 			<text>---
 (Front): Man of the Woods</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/73_back.jpg" num="204b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/73_back.jpg" num="200b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2765,7 +2765,7 @@ As long as an opponent has 13 or fewer cards in their library, this creature get
 When this creature enters, if you control a blank creature, you may draw a card. (Cards, spells, and nontoken permanents are blank if they have no ability text.)
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/74_front.jpg" num="201a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/74_front.jpg" num="197a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2784,7 +2784,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Forest</name>
 			<text>---
 (Front): Herd of Rhinobeetles</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/74_back.jpg" num="201b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/74_back.jpg" num="197b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2801,7 +2801,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Horngreg</name>
 			<text>---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/75_front.jpg" num="202a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/75_front.jpg" num="198a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2820,7 +2820,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Forest</name>
 			<text>---
 (Front): Horngreg</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/75_back.jpg" num="202b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/75_back.jpg" num="198b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2837,7 +2837,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Overgrowth Tortise</name>
 			<text>---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/76_front.jpg" num="210a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/76_front.jpg" num="206a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2856,7 +2856,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Forest</name>
 			<text>---
 (Front): Overgrowth Tortise</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/76_back.jpg" num="210b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/76_back.jpg" num="206b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2873,7 +2873,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Rhinopine</name>
 			<text>---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/77_front.jpg" num="211a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/77_front.jpg" num="207a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2892,7 +2892,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Forest</name>
 			<text>---
 (Front): Rhinopine</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/77_back.jpg" num="211b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/77_back.jpg" num="207b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2909,7 +2909,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Sandtrotting Drakosaur</name>
 			<text>---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/78_front.jpg" num="215a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/78_front.jpg" num="211a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2928,7 +2928,7 @@ When this creature enters, if you control a blank creature, you may draw a card.
 			<name>Forest</name>
 			<text>---
 (Front): Sandtrotting Drakosaur</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/78_back.jpg" num="215b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/78_back.jpg" num="211b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5400,12 +5400,12 @@ Whenever this creature attacks, it deals X damage to up to one target creature, 
 			<related attach="transform">Inspiring Shieldmaiden</related>
 		</card>
 		<card>
-			<name>G uncommon World Awake</name>
+			<name>World Awake</name>
 			<text>Whenever another permanent you control transforms, untap it.
 Permanents you control that transformed this turn have haste, vigilance, and &quot;{T}: Draw a card.&quot; (Permanents with shroud can&apos;t be the target of spells or abilities.)
 ---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/145_front.jpg" num="197a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/145_front.jpg" num="221a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5422,8 +5422,8 @@ Permanents you control that transformed this turn have haste, vigilance, and &qu
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G uncommon World Awake</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/145_back.jpg" num="197b">MTA</set>
+(Front): World Awake</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/145_back.jpg" num="221b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5434,13 +5434,13 @@ Permanents you control that transformed this turn have haste, vigilance, and &qu
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G uncommon World Awake</related>
+			<related attach="transform">World Awake</related>
 		</card>
 		<card>
-			<name>G uncommon Fig Fatale</name>
+			<name>Fig Fatale</name>
 			<text>---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/146_front.jpg" num="192a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/146_front.jpg" num="191a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5458,8 +5458,8 @@ Permanents you control that transformed this turn have haste, vigilance, and &qu
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G uncommon Fig Fatale</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/146_back.jpg" num="192b">MTA</set>
+(Front): Fig Fatale</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/146_back.jpg" num="191b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5470,15 +5470,15 @@ Permanents you control that transformed this turn have haste, vigilance, and &qu
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G uncommon Fig Fatale</related>
+			<related attach="transform">Fig Fatale</related>
 		</card>
 		<card>
-			<name>G un Scout</name>
+			<name>Scout</name>
 			<text>Scry 1.
 You may put a card from your hand onto the battlefield as a land tapped.
 ---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/147_front.jpg" num="189a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/147_front.jpg" num="212a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5495,8 +5495,8 @@ You may put a card from your hand onto the battlefield as a land tapped.
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G un Scout</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/147_back.jpg" num="189b">MTA</set>
+(Front): Scout</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/147_back.jpg" num="212b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5507,14 +5507,14 @@ You may put a card from your hand onto the battlefield as a land tapped.
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G un Scout</related>
+			<related attach="transform">Scout</related>
 		</card>
 		<card>
-			<name>G uncommon Floral Foil</name>
+			<name>Floral Foil</name>
 			<text>Choose target noncreature spell. Its owner puts it onto the battlefield as a land tapped.
 ---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/148_front.jpg" num="194a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/148_front.jpg" num="193a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5531,8 +5531,8 @@ You may put a card from your hand onto the battlefield as a land tapped.
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G uncommon Floral Foil</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/148_back.jpg" num="194b">MTA</set>
+(Front): Floral Foil</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/148_back.jpg" num="193b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5543,14 +5543,14 @@ You may put a card from your hand onto the battlefield as a land tapped.
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G uncommon Floral Foil</related>
+			<related attach="transform">Floral Foil</related>
 		</card>
 		<card>
 			<name>Consuming Overgrowth</name>
 			<text>Destroy target artifact, enchantment, or land.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/149_front.jpg" num="184a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/149_front.jpg" num="186a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5568,7 +5568,7 @@ You may put a card from your hand onto the battlefield as a land tapped.
 			<name>Forest</name>
 			<text>---
 (Front): Consuming Overgrowth</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/149_back.jpg" num="184b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/149_back.jpg" num="186b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5582,10 +5582,10 @@ You may put a card from your hand onto the battlefield as a land tapped.
 			<related attach="transform">Consuming Overgrowth</related>
 		</card>
 		<card>
-			<name>G uncommon Tropical Hydra</name>
+			<name>Tropical Hydra</name>
 			<text>---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/150_front.jpg" num="195a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/150_front.jpg" num="217a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5603,8 +5603,8 @@ You may put a card from your hand onto the battlefield as a land tapped.
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G uncommon Tropical Hydra</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/150_back.jpg" num="195b">MTA</set>
+(Front): Tropical Hydra</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/150_back.jpg" num="217b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5615,7 +5615,7 @@ You may put a card from your hand onto the battlefield as a land tapped.
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G uncommon Tropical Hydra</related>
+			<related attach="transform">Tropical Hydra</related>
 		</card>
 		<card>
 			<name>Magma Tortise</name>
@@ -5656,11 +5656,11 @@ Whenever this creature attacks, stun it. (Tap it. It doesn&apos;t untap the next
 			<related attach="transform">Magma Tortise</related>
 		</card>
 		<card>
-			<name>G uncommon Barkwolf Pack</name>
+			<name>Barkwolf Pack</name>
 			<text>When this permanent enters or transforms into this creature, you may choose target land you control. Transform it if it transforms into a permanent with mana value 3 or less.
 ---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/152_front.jpg" num="190a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/152_front.jpg" num="180a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5678,8 +5678,8 @@ Whenever this creature attacks, stun it. (Tap it. It doesn&apos;t untap the next
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G uncommon Barkwolf Pack</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/152_back.jpg" num="190b">MTA</set>
+(Front): Barkwolf Pack</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/152_back.jpg" num="180b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5690,17 +5690,17 @@ Whenever this creature attacks, stun it. (Tap it. It doesn&apos;t untap the next
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G uncommon Barkwolf Pack</related>
+			<related attach="transform">Barkwolf Pack</related>
 		</card>
 		<card>
-			<name>G uncommon Wild Chimera</name>
+			<name>Wild Chimera</name>
 			<text>Trample
 {3}{G}: This creature gets +1/+1.
 {2}{WU}: This creature gains flying.
 {1}{BR}: This creature gains menace.
 ---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/153_front.jpg" num="196a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/153_front.jpg" num="220a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5718,8 +5718,8 @@ Whenever this creature attacks, stun it. (Tap it. It doesn&apos;t untap the next
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G uncommon Wild Chimera</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/153_back.jpg" num="196b">MTA</set>
+(Front): Wild Chimera</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/153_back.jpg" num="220b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5730,7 +5730,7 @@ Whenever this creature attacks, stun it. (Tap it. It doesn&apos;t untap the next
 				<coloridentity>WUBRG</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G uncommon Wild Chimera</related>
+			<related attach="transform">Wild Chimera</related>
 		</card>
 		<card>
 			<name>Rothand Bug</name>
@@ -5738,7 +5738,7 @@ Whenever this creature attacks, stun it. (Tap it. It doesn&apos;t untap the next
 Whenever one or more cards are put into an opponent&apos;s graveyard from their library, steal one of them. Put the stolen card onto the battlefield as a land tapped instead of into your hand. This ability triggers only once each turn. (You own the stolen card for the rest of the game.)
 ---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/154_front.jpg" num="212a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/154_front.jpg" num="208a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5757,7 +5757,7 @@ Whenever one or more cards are put into an opponent&apos;s graveyard from their 
 			<name>Forest</name>
 			<text>---
 (Front): Rothand Bug</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/154_back.jpg" num="212b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/154_back.jpg" num="208b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5812,7 +5812,7 @@ Whenever one or more cards are put into an opponent&apos;s graveyard from their 
 Draw a card.
 ---
 (Back): Tropic</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/156_front.jpg" num="243a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/156_front.jpg" num="244a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5833,7 +5833,7 @@ Draw a card.
 This land enters tapped.
 ---
 (Front): Imagine the Past</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/156_back.jpg" num="243b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/156_back.jpg" num="244b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5931,7 +5931,7 @@ When this creature enters, scry 2.
 When this creature transforms into a land or dies, you gain 2 life.
 ---
 (Back): Flatland</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/159_front.jpg" num="261a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/159_front.jpg" num="262a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5952,7 +5952,7 @@ When this creature transforms into a land or dies, you gain 2 life.
 This land enters tapped.
 ---
 (Front): Watchful Treescale</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/159_back.jpg" num="261b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/159_back.jpg" num="262b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6049,7 +6049,7 @@ This land enters tapped.
 			<text>Look at the top three cards of target opponent&apos;s library. Steal one of them. Put one on the bottom of that library. Put the last on top. (Put stolen cards into your hand. You own them for the rest of the game.)
 ---
 (Back): Mire</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/162_front.jpg" num="253a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/162_front.jpg" num="254a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6069,7 +6069,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Spycraft</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/162_back.jpg" num="253b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/162_back.jpg" num="254b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6088,7 +6088,7 @@ This land enters tapped.
 This spell deals 5 damage to any target.
 ---
 (Back): Plateau</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/163_front.jpg" num="246a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/163_front.jpg" num="247a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6108,7 +6108,7 @@ This spell deals 5 damage to any target.
 This land enters tapped.
 ---
 (Front): Mindless Strike</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/163_back.jpg" num="246b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/163_back.jpg" num="247b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6126,7 +6126,7 @@ This land enters tapped.
 			<text>Draw three cards, then discard a card.
 ---
 (Back): Reef</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/164_front.jpg" num="244a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/164_front.jpg" num="245a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6146,7 +6146,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Inciting Incident</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/164_back.jpg" num="244b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/164_back.jpg" num="245b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6202,7 +6202,7 @@ This land enters tapped.
 			<text>Target player gains 1 life and draws a card. Another target player loses 1 life and discards a card.
 ---
 (Back): Shrubland</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/166_front.jpg" num="260a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/166_front.jpg" num="261a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6222,7 +6222,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Watch the Sunset</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/166_back.jpg" num="260b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/166_back.jpg" num="261b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6278,7 +6278,7 @@ This land enters tapped.
 			<text>First strike, haste
 ---
 (Back): Highland</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/168_front.jpg" num="234a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/168_front.jpg" num="235a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6299,7 +6299,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Fildegarde Berzerk</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/168_back.jpg" num="234b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/168_back.jpg" num="235b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6319,7 +6319,7 @@ Rot (Players dealt damage by this also mill that many cards.)
 Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 ---
 (Back): Mire</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/169_front.jpg" num="245a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/169_front.jpg" num="246a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6340,7 +6340,7 @@ Creative (Whenever you cast a conjured spell, this creature gets +1/+0.)
 This land enters tapped.
 ---
 (Front): Lunacy Beast</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/169_back.jpg" num="245b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/169_back.jpg" num="246b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6359,7 +6359,7 @@ This land enters tapped.
 Whenever another permanent you control transforms, if it transforms into a land, you may draw a card. If it transforms into a nonland, you may put a card from your hand onto the battlefield as a land tapped.
 ---
 (Back): Tropic</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/170_front.jpg" num="257a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/170_front.jpg" num="258a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6380,7 +6380,7 @@ Whenever another permanent you control transforms, if it transforms into a land,
 This land enters tapped.
 ---
 (Front): Transformation Sage</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/170_back.jpg" num="257b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/170_back.jpg" num="258b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6435,7 +6435,7 @@ This land enters tapped.
 When this creature dies, you may put a card from your hand onto the battlefield as a land.
 ---
 (Back): Bog</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/172_front.jpg" num="259a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/172_front.jpg" num="260a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6456,7 +6456,7 @@ When this creature dies, you may put a card from your hand onto the battlefield 
 This land enters tapped.
 ---
 (Front): Vulture Shaman</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/172_back.jpg" num="259b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/172_back.jpg" num="260b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6514,7 +6514,7 @@ This land enters tapped.
 When this permanent enters or transforms into this creature, up to one other target creature gains Creative.
 ---
 (Back): Reef</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/174_front.jpg" num="233a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/174_front.jpg" num="234a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6535,7 +6535,7 @@ When this permanent enters or transforms into this creature, up to one other tar
 This land enters tapped.
 ---
 (Front): Festival Band</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/174_back.jpg" num="233b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/174_back.jpg" num="234b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6553,7 +6553,7 @@ This land enters tapped.
 			<text>Menace, trample
 ---
 (Back): Volcano</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/175_front.jpg" num="236a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/175_front.jpg" num="237a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6574,7 +6574,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Furious Titan</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/175_back.jpg" num="236b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/175_back.jpg" num="237b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6631,7 +6631,7 @@ This land enters tapped.
 			<text>Whenever you attack, create an X/1 red Giant Elemental creature token with trample and ephemeral that&apos;s tapped and attacking, where X is the greatest power among attacking creatures you control. (At the beginning of your end step, sacrifice it.)
 ---
 (Back): Plateau</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/177_front.jpg" num="237a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/177_front.jpg" num="238a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6652,7 +6652,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Giant Magus</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/177_back.jpg" num="237b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/177_back.jpg" num="238b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6666,12 +6666,12 @@ This land enters tapped.
 			<related attach="transform">Giant Magus</related>
 		</card>
 		<card>
-			<name>WB signpost Duran, the Exile</name>
+			<name>Duran, the Exile</name>
 			<text>Ward—Sacrifice a creature or land.
 Sacrifice another creature: Undead creatures you control get +1/+0 until end of turn. Activate only as a sorcery.
 ---
 (Back): Shrubland</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/178_front.jpg" num="262a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/178_front.jpg" num="231a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6691,8 +6691,8 @@ Sacrifice another creature: Undead creatures you control get +1/+0 until end of 
 			<text>({T}: Add {W} or {B}.)
 This land enters tapped.
 ---
-(Front): WB signpost Duran, the Exile</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/178_back.jpg" num="262b">MTA</set>
+(Front): Duran, the Exile</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/178_back.jpg" num="231b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6703,7 +6703,7 @@ This land enters tapped.
 				<coloridentity>WB</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">WB signpost Duran, the Exile</related>
+			<related attach="transform">Duran, the Exile</related>
 		</card>
 		<card>
 			<name>Black Market Vendor</name>
@@ -6751,7 +6751,7 @@ This land enters tapped.
 When this permanent enters or transforms into this creature, you may draw a card.
 ---
 (Back): Tropic</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/180_front.jpg" num="258a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/180_front.jpg" num="259a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6772,7 +6772,7 @@ When this permanent enters or transforms into this creature, you may draw a card
 This land enters tapped.
 ---
 (Front): Tropic Elemental</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/180_back.jpg" num="258b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/180_back.jpg" num="259b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6830,7 +6830,7 @@ This land enters tapped.
 • This spell deals 3 damage to any target.
 ---
 (Back): Volcano</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/182_front.jpg" num="240a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/182_front.jpg" num="241a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6850,7 +6850,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Hemopotence</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/182_back.jpg" num="240b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/182_back.jpg" num="241b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6869,7 +6869,7 @@ This land enters tapped.
 When this creature enters, create two 1/1 red Goat creature tokens with trample.
 ---
 (Back): Highland</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/183_front.jpg" num="247a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/183_front.jpg" num="248a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6890,7 +6890,7 @@ When this creature enters, create two 1/1 red Goat creature tokens with trample.
 This land enters tapped.
 ---
 (Front): Mountain Shephard</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/183_back.jpg" num="247b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/183_back.jpg" num="248b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -6949,7 +6949,7 @@ This land enters tapped.
 If damage would cause an opponent to mill one or more cards, they mill twice that many cards instead.
 ---
 (Back): Bog</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/185_front.jpg" num="239a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/185_front.jpg" num="240a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -6970,7 +6970,7 @@ If damage would cause an opponent to mill one or more cards, they mill twice tha
 This land enters tapped.
 ---
 (Front): Grotesquosity</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/185_back.jpg" num="239b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/185_back.jpg" num="240b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7024,7 +7024,7 @@ This land enters tapped.
 			<text>Conjure 8 cards named Grizzly Bear into your hand. At the beginning of your next end step, reveal your hand, then discard each card named Grizzly Bear revealed this way.
 ---
 (Back): Forest</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/187_front.jpg" num="205a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/187_front.jpg" num="201a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7042,7 +7042,7 @@ This land enters tapped.
 			<name>Forest</name>
 			<text>---
 (Front): Many Bears</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/187_back.jpg" num="205b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/187_back.jpg" num="201b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7134,7 +7134,7 @@ Search your library for an artifact or enchantment card, reveal it, put it into 
 Other Dogs and Wolves you control get +X/+0 and have haste, trample, and vigilance, where X is Stoutly&apos;s power.
 ---
 (Back): Town</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/190_front.jpg" num="254a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/190_front.jpg" num="255a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7155,7 +7155,7 @@ Other Dogs and Wolves you control get +X/+0 and have haste, trample, and vigilan
 {T}: Add one mana of the chosen color.
 ---
 (Front): Stoutly, Wisest of the Pack</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/190_back.jpg" num="254b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/190_back.jpg" num="255b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7174,7 +7174,7 @@ Other Dogs and Wolves you control get +X/+0 and have haste, trample, and vigilan
 When Randelar enters or transforms into this creature, conjure a card named &quot;The Ballad of Hidson Shieldsong&quot; into your hand.
 ---
 (Back): Town</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/191_front.jpg" num="250a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/191_front.jpg" num="251a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7195,7 +7195,7 @@ When Randelar enters or transforms into this creature, conjure a card named &quo
 {T}: Add one mana of the chosen color.
 ---
 (Front): Randelar, Old Scop</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/191_back.jpg" num="250b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/191_back.jpg" num="251b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7287,7 +7287,7 @@ When Randelar enters or transforms into this creature, conjure a card named &quo
 Whenever Finsey Cohegan attacks, choose up to one target undead creature defending player controls. It must block Finsey this turn if able.
 ---
 (Back): Town</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/194_front.jpg" num="235a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/194_front.jpg" num="236a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7308,7 +7308,7 @@ Whenever Finsey Cohegan attacks, choose up to one target undead creature defendi
 {T}: Add one mana of the chosen color.
 ---
 (Front): Finsey Cohegan, Blood Born</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/194_back.jpg" num="235b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/194_back.jpg" num="236b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7327,7 +7327,7 @@ Whenever Finsey Cohegan attacks, choose up to one target undead creature defendi
 Untapped outlaws you control have shroud and &quot;{T}: Another outlaw of your choice can&apos;t be blocked this turn.&quot;
 ---
 (Back): Town</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/195_front.jpg" num="232a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/195_front.jpg" num="233a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7348,7 +7348,7 @@ Untapped outlaws you control have shroud and &quot;{T}: Another outlaw of your c
 {T}: Add one mana of the chosen color.
 ---
 (Front): Emily and the Thieves&apos; Guild</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/195_back.jpg" num="232b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/195_back.jpg" num="233b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7448,7 +7448,7 @@ At the beginning of your end step, if there are 20 or more counters on this land
 Search your library for a creature or enchantment card, reveal it, put it into your hand, then shuffle.
 ---
 (Back): Forest</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/198_front.jpg" num="209a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/198_front.jpg" num="205a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7466,7 +7466,7 @@ Search your library for a creature or enchantment card, reveal it, put it into y
 			<name>Forest</name>
 			<text>---
 (Front): Natural Synergy</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/198_back.jpg" num="209b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/198_back.jpg" num="205b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7672,7 +7672,7 @@ Whenever this creature attacks, exile up to one target card in the defending pla
 Rot (Players dealt damage by this also mill that many cards.)
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/204_front.jpg" num="207a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/204_front.jpg" num="203a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7691,7 +7691,7 @@ Rot (Players dealt damage by this also mill that many cards.)
 			<name>Forest</name>
 			<text>---
 (Front): Moss Fae</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/204_back.jpg" num="207b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/204_back.jpg" num="203b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7710,7 +7710,7 @@ Rot (Players dealt damage by this also mill that many cards.)
 When this permanent enters or transforms into this creature, look at the top three cards of your library. Put one onto the battlefield tapped as a land and shuffle the rest into your library.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/205_front.jpg" num="182a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/205_front.jpg" num="183a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7729,7 +7729,7 @@ When this permanent enters or transforms into this creature, look at the top thr
 			<name>Forest</name>
 			<text>---
 (Front): Bramblewall</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/205_back.jpg" num="182b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/205_back.jpg" num="183b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -7747,7 +7747,7 @@ When this permanent enters or transforms into this creature, look at the top thr
 			<text>When this permanent enters or transforms into this creature, another target creature you control gets +1/+0.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/206_front.jpg" num="183a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/206_front.jpg" num="185a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -7766,7 +7766,7 @@ When this permanent enters or transforms into this creature, look at the top thr
 			<name>Forest</name>
 			<text>---
 (Front): Combatative Companion</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/206_back.jpg" num="183b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/206_back.jpg" num="185b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8864,7 +8864,7 @@ At the beginning of your end step, scry 1.
 			<name>Spiked Bear</name>
 			<text>---
 (Back): Shifting Hills</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/236_front.jpg" num="217a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/236_front.jpg" num="214a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8886,7 +8886,7 @@ At the beginning of your end step, scry 1.
 {4}{G}{G}, {T}: Transform this land. Activate only as a sorcery.
 ---
 (Front): Spiked Bear</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/236_back.jpg" num="217b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/236_back.jpg" num="214b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8900,11 +8900,11 @@ At the beginning of your end step, scry 1.
 			<related attach="transform">Spiked Bear</related>
 		</card>
 		<card>
-			<name>G uncommon Brave the Wilds</name>
+			<name>Brave the Wilds</name>
 			<text>Exile all graveyards. Then look at the top X cards of your library, where X is the number of cards exiled this way. You may reveal a permanent card from among them and put it into your hand. Shuffle the rest into your library.
 ---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/237_front.jpg" num="191a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/237_front.jpg" num="184a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8921,8 +8921,8 @@ At the beginning of your end step, scry 1.
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G uncommon Brave the Wilds</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/237_back.jpg" num="191b">MTA</set>
+(Front): Brave the Wilds</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/237_back.jpg" num="184b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8933,7 +8933,7 @@ At the beginning of your end step, scry 1.
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G uncommon Brave the Wilds</related>
+			<related attach="transform">Brave the Wilds</related>
 		</card>
 		<card>
 			<name>Elven Archers</name>
@@ -8941,7 +8941,7 @@ At the beginning of your end step, scry 1.
 When this creature enters, destroy up to one target artifact, enchantment, or creature with flying.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/238_front.jpg" num="188a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/238_front.jpg" num="190a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8960,7 +8960,7 @@ When this creature enters, destroy up to one target artifact, enchantment, or cr
 			<name>Forest</name>
 			<text>---
 (Front): Elven Archers</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/238_back.jpg" num="188b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/238_back.jpg" num="190b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -8978,7 +8978,7 @@ When this creature enters, destroy up to one target artifact, enchantment, or cr
 			<text>Target creature you control gets +1/+0. It then deals damage equal to its power to up to one target creature you don&apos;t control.
 ---
 (Back): Forest</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/239_front.jpg" num="206a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/239_front.jpg" num="202a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8996,7 +8996,7 @@ When this creature enters, destroy up to one target artifact, enchantment, or cr
 			<name>Forest</name>
 			<text>---
 (Front): Mighty Blow</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/239_back.jpg" num="206b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/239_back.jpg" num="202b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9166,7 +9166,7 @@ When this creature dies, return it to the battlefield as a land tapped.
 Creatures you control gain haste and first strike until end of turn.
 ---
 (Back): Highland</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/244_front.jpg" num="251a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/244_front.jpg" num="252a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9186,7 +9186,7 @@ Creatures you control gain haste and first strike until end of turn.
 This land enters tapped.
 ---
 (Front): Rush of Violence</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/244_back.jpg" num="251b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/244_back.jpg" num="252b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9245,7 +9245,7 @@ This land enters tapped.
 {W}{B}, Sacrifice a creature: Reveal cards from the top of your library until you reveal an undead card, put that card into your hand, then shuffle. (Zombies, skeletons, vampires, spirits, specters, and shades are undead.)
 ---
 (Back): Shrubland</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/246_front.jpg" num="241a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/246_front.jpg" num="242a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9265,7 +9265,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Horde Summoning</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/246_back.jpg" num="241b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/246_back.jpg" num="242b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9283,7 +9283,7 @@ This land enters tapped.
 			<text>Whenever you cast a Conjured spell, you may create an X/X blue Elemental creature token with vigilance, where X is that spell&apos;s mana value. Do this only once each turn.
 ---
 (Back): Fen</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/247_front.jpg" num="242a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/247_front.jpg" num="243a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9303,7 +9303,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Hydroconjuration</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/247_back.jpg" num="242b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/247_back.jpg" num="243b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9322,7 +9322,7 @@ This land enters tapped.
 This spell deals 1 damage to target creature.
 ---
 (Back): Reef</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/248_front.jpg" num="248a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/248_front.jpg" num="249a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9342,7 +9342,7 @@ This spell deals 1 damage to target creature.
 This land enters tapped.
 ---
 (Front): Novice Electromancy</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/248_back.jpg" num="248b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/248_back.jpg" num="249b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9360,7 +9360,7 @@ This land enters tapped.
 			<text>Transform target permanent.
 ---
 (Back): Tropic</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/249_front.jpg" num="256a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/249_front.jpg" num="257a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9380,7 +9380,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Transformation</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/249_back.jpg" num="256b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/249_back.jpg" num="257b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9399,7 +9399,7 @@ This land enters tapped.
 {3}: Target creature with power 3 or less can&apos;t be blocked this turn.
 ---
 (Back): Mire</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/250_front.jpg" num="255a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/250_front.jpg" num="256a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9419,7 +9419,7 @@ This land enters tapped.
 This land enters tapped.
 ---
 (Front): Thief&apos;s Highway</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/250_back.jpg" num="255b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/250_back.jpg" num="256b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9581,11 +9581,11 @@ Sacrifice this creature: Up to X different target creatures each gain indestruct
 			<related attach="transform">Selfless Student</related>
 		</card>
 		<card>
-			<name>G uncommon Find the Path</name>
+			<name>Find the Path</name>
 			<text>Search your library for a card, put it onto the battlefield as a land tapped, then shuffle.
 ---
 (Back): Forest</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/255_front.jpg" num="193a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/255_front.jpg" num="192a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9602,8 +9602,8 @@ Sacrifice this creature: Up to X different target creatures each gain indestruct
 		<card>
 			<name>Forest</name>
 			<text>---
-(Front): G uncommon Find the Path</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/255_back.jpg" num="193b">MTA</set>
+(Front): Find the Path</text>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/255_back.jpg" num="192b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9614,7 +9614,7 @@ Sacrifice this creature: Up to X different target creatures each gain indestruct
 				<coloridentity>G</coloridentity>
 			</prop>
 			<tablerow>0</tablerow>
-			<related attach="transform">G uncommon Find the Path</related>
+			<related attach="transform">Find the Path</related>
 		</card>
 		<card>
 			<name>Cataclysm, Dark Spark</name>
@@ -9663,7 +9663,7 @@ Sacrifice this creature: Up to X different target creatures each gain indestruct
 			<text>Target permanent loses ephemeral. If it does, another target permanent gains ephemeral.
 ---
 (Back): Shrubland</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/257_front.jpg" num="249a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/257_front.jpg" num="250a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9683,7 +9683,7 @@ Sacrifice this creature: Up to X different target creatures each gain indestruct
 This land enters tapped.
 ---
 (Front): Permanence Transference</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/257_back.jpg" num="249b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/257_back.jpg" num="250b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9740,7 +9740,7 @@ This land enters tapped.
 Whenever an Elemental you control enters or a permanent you control transforms into an Elemental, you may draw a card.
 ---
 (Back): Town</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/259_front.jpg" num="231a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/259_front.jpg" num="232a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9760,7 +9760,7 @@ Whenever an Elemental you control enters or a permanent you control transforms i
 {T}: Add one mana of the chosen color.
 ---
 (Front): Elemental Mastery</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/259_back.jpg" num="231b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/259_back.jpg" num="232b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9777,7 +9777,7 @@ Whenever an Elemental you control enters or a permanent you control transforms i
 			<name>Giant Wurm</name>
 			<text>---
 (Back): Forest</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/260_front.jpg" num="198a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/260_front.jpg" num="194a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9796,7 +9796,7 @@ Whenever an Elemental you control enters or a permanent you control transforms i
 			<name>Forest</name>
 			<text>---
 (Front): Giant Wurm</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/260_back.jpg" num="198b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/260_back.jpg" num="194b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -9814,7 +9814,7 @@ Whenever an Elemental you control enters or a permanent you control transforms i
 			<text>{T}: You may sacrifice two lands you control. If you do, transform this creature. Activate only as a sorcery.
 ---
 (Back): Secret Lotus Cove</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/261_front.jpg" num="203a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/261_front.jpg" num="199a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -9836,7 +9836,7 @@ Shroud
 {T}: Add three mana of any one color.
 ---
 (Front): Lotus Guardian</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/261_back.jpg" num="203b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/261_back.jpg" num="199b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -10226,7 +10226,7 @@ Search your library for an instant or artifact card, reveal it, put it into your
 Whenever one or more cards are put into an opponent&apos;s graveyard from their library, target creature you control gets +1/+1. This ability triggers only once each turn.
 ---
 (Back): Bog</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/272_front.jpg" num="252a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/272_front.jpg" num="253a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -10247,7 +10247,7 @@ Whenever one or more cards are put into an opponent&apos;s graveyard from their 
 This land enters tapped.
 ---
 (Front): Spawn of the Black Pool</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/272_back.jpg" num="252b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/272_back.jpg" num="253b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -11127,7 +11127,7 @@ Draw a card.
 {2}{U}{B}: Steal target card that was put into an opponent&apos;s graveyard from anywhere this turn. If you do, put two loyalty counters on The Gray Witch, then she metamorphs into Cataclysm, Dark Spark. (Replace this card with the named meta card. Treat it as though this card became that meta card. Remove this card from play. No enters or leaves abilities trigger and all modifiers and attachments remain on the meta card.)
 ---
 (Back): Mire</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/296_front.jpg" num="238a">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/296_front.jpg" num="239a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -11149,7 +11149,7 @@ Draw a card.
 This land enters tapped.
 ---
 (Front): The Gray Witch</text>
-			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/296_back.jpg" num="238b">MTA</set>
+			<set rarity="rare" picurl="https://filthycasual564.github.io/sets/MTA-files/img/296_back.jpg" num="239b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>

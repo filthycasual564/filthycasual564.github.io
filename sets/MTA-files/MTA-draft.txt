@@ -39,7 +39,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Treefolk",
-			"collector_number": "187",
+			"collector_number": "189",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1008,7 +1008,7 @@
 			"rarity": "common",
 			"mana_cost": "{7}{G}",
 			"type": "Creature — Whale",
-			"collector_number": "214",
+			"collector_number": "210",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1025,7 +1025,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "221",
+			"collector_number": "219",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1042,7 +1042,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Berserker",
-			"collector_number": "181",
+			"collector_number": "182",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1059,7 +1059,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "199",
+			"collector_number": "195",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1076,7 +1076,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "216",
+			"collector_number": "213",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1093,7 +1093,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Satyr Druid",
-			"collector_number": "185",
+			"collector_number": "187",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1110,7 +1110,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "219",
+			"collector_number": "216",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1127,7 +1127,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Elf Druid",
-			"collector_number": "213",
+			"collector_number": "209",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1144,7 +1144,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Druid",
-			"collector_number": "180",
+			"collector_number": "181",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1161,7 +1161,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Ooze",
-			"collector_number": "218",
+			"collector_number": "215",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1178,7 +1178,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Fungus",
-			"collector_number": "208",
+			"collector_number": "204",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1195,7 +1195,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "200",
+			"collector_number": "196",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1212,7 +1212,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Snake",
-			"collector_number": "186",
+			"collector_number": "188",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1229,7 +1229,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Warrior",
-			"collector_number": "220",
+			"collector_number": "218",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1246,7 +1246,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Human Druid",
-			"collector_number": "204",
+			"collector_number": "200",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1263,7 +1263,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Insect Rhino",
-			"collector_number": "201",
+			"collector_number": "197",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1280,7 +1280,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Bear Goat Turtle",
-			"collector_number": "202",
+			"collector_number": "198",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1297,7 +1297,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Turtle",
-			"collector_number": "210",
+			"collector_number": "206",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1314,7 +1314,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Rhino Porcupine",
-			"collector_number": "211",
+			"collector_number": "207",
 			"back": {
 				"name": "",
 				"type": "",
@@ -1331,7 +1331,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Dinosaur Drake",
-			"collector_number": "215",
+			"collector_number": "211",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2466,11 +2466,11 @@
 			}
 		},
 		{
-			"name": "G uncommon World Awake",
+			"name": "World Awake",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Enchantment",
-			"collector_number": "197",
+			"collector_number": "221",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2483,11 +2483,11 @@
 			}
 		},
 		{
-			"name": "G uncommon Fig Fatale",
+			"name": "Fig Fatale",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Elemental Skeleton",
-			"collector_number": "192",
+			"collector_number": "191",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2500,11 +2500,11 @@
 			}
 		},
 		{
-			"name": "G un Scout",
+			"name": "Scout",
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "189",
+			"collector_number": "212",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2517,11 +2517,11 @@
 			}
 		},
 		{
-			"name": "G uncommon Floral Foil",
+			"name": "Floral Foil",
 			"rarity": "uncommon",
 			"mana_cost": "{G}{G}",
 			"type": "Instant",
-			"collector_number": "194",
+			"collector_number": "193",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2538,7 +2538,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Instant",
-			"collector_number": "184",
+			"collector_number": "186",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2551,11 +2551,11 @@
 			}
 		},
 		{
-			"name": "G uncommon Tropical Hydra",
+			"name": "Tropical Hydra",
 			"rarity": "uncommon",
 			"mana_cost": "{X}{G}",
 			"type": "Creature — Hydra",
-			"collector_number": "195",
+			"collector_number": "217",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2585,11 +2585,11 @@
 			}
 		},
 		{
-			"name": "G uncommon Barkwolf Pack",
+			"name": "Barkwolf Pack",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Wolf Plant",
-			"collector_number": "190",
+			"collector_number": "180",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2602,11 +2602,11 @@
 			}
 		},
 		{
-			"name": "G uncommon Wild Chimera",
+			"name": "Wild Chimera",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Ape Bird Boar Spider Chimera",
-			"collector_number": "196",
+			"collector_number": "220",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2623,7 +2623,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Insect Rogue",
-			"collector_number": "212",
+			"collector_number": "208",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2657,7 +2657,7 @@
 			"rarity": "common",
 			"mana_cost": "{G}{U}",
 			"type": "Instant",
-			"collector_number": "243",
+			"collector_number": "244",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2708,7 +2708,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Creature — Lizard Plant",
-			"collector_number": "261",
+			"collector_number": "262",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2759,7 +2759,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}{B}",
 			"type": "Instant",
-			"collector_number": "253",
+			"collector_number": "254",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2776,7 +2776,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Sorcery",
-			"collector_number": "246",
+			"collector_number": "247",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2793,7 +2793,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Instant",
-			"collector_number": "244",
+			"collector_number": "245",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2827,7 +2827,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "260",
+			"collector_number": "261",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2861,7 +2861,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}{W}",
 			"type": "Creature — Human Berserker",
-			"collector_number": "234",
+			"collector_number": "235",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2878,7 +2878,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}{B}",
 			"type": "Creature — Zombie Horror",
-			"collector_number": "245",
+			"collector_number": "246",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2895,7 +2895,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Creature — Merfolk Druid",
-			"collector_number": "257",
+			"collector_number": "258",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2929,7 +2929,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}{G}",
 			"type": "Creature — Vulture Druid",
-			"collector_number": "259",
+			"collector_number": "260",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2963,7 +2963,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Creature — Human Bard",
-			"collector_number": "233",
+			"collector_number": "234",
 			"back": {
 				"name": "",
 				"type": "",
@@ -2980,7 +2980,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}{R}",
 			"type": "Creature — Giant",
-			"collector_number": "236",
+			"collector_number": "237",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3014,7 +3014,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{G}",
 			"type": "Creature — Giant Wizard",
-			"collector_number": "237",
+			"collector_number": "238",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3027,11 +3027,11 @@
 			}
 		},
 		{
-			"name": "WB signpost Duran, the Exile",
+			"name": "Duran, the Exile",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Legendary Creature — Elf Knight",
-			"collector_number": "262",
+			"collector_number": "231",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3065,7 +3065,7 @@
 			"rarity": "common",
 			"mana_cost": "{6}{G}{U}",
 			"type": "Creature — Elemental Giant",
-			"collector_number": "258",
+			"collector_number": "259",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3099,7 +3099,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Instant",
-			"collector_number": "240",
+			"collector_number": "241",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3116,7 +3116,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Dwarf Druid",
-			"collector_number": "247",
+			"collector_number": "248",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3150,7 +3150,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Creature — Spider Leech Wurm",
-			"collector_number": "239",
+			"collector_number": "240",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3184,7 +3184,7 @@
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "205",
+			"collector_number": "201",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3235,7 +3235,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{G}{W}",
 			"type": "Legendary Creature — Dog Knight",
-			"collector_number": "254",
+			"collector_number": "255",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3252,7 +3252,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{G}{U}{R}",
 			"type": "Legendary Creature — Dwarf Bard",
-			"collector_number": "250",
+			"collector_number": "251",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3303,7 +3303,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{W}{B}",
 			"type": "Legendary Creature — Human Vampire Warrior",
-			"collector_number": "235",
+			"collector_number": "236",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3320,7 +3320,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{B}{R}",
 			"type": "Legendary Creature — Rogue",
-			"collector_number": "232",
+			"collector_number": "233",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3371,7 +3371,7 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "209",
+			"collector_number": "205",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3473,7 +3473,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Elemental Faerie",
-			"collector_number": "207",
+			"collector_number": "203",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3490,7 +3490,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Plant Wall",
-			"collector_number": "182",
+			"collector_number": "183",
 			"back": {
 				"name": "",
 				"type": "",
@@ -3507,7 +3507,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Dog",
-			"collector_number": "183",
+			"collector_number": "185",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4017,7 +4017,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Bear Porcupine",
-			"collector_number": "217",
+			"collector_number": "214",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4030,11 +4030,11 @@
 			}
 		},
 		{
-			"name": "G uncommon Brave the Wilds",
+			"name": "Brave the Wilds",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "191",
+			"collector_number": "184",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4051,7 +4051,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Elf Warrior",
-			"collector_number": "188",
+			"collector_number": "190",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4068,7 +4068,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "206",
+			"collector_number": "202",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4153,7 +4153,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Sorcery",
-			"collector_number": "251",
+			"collector_number": "252",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4187,7 +4187,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{B}",
 			"type": "Enchantment",
-			"collector_number": "241",
+			"collector_number": "242",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4204,7 +4204,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Enchantment",
-			"collector_number": "242",
+			"collector_number": "243",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4221,7 +4221,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "248",
+			"collector_number": "249",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4238,7 +4238,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Sorcery",
-			"collector_number": "256",
+			"collector_number": "257",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4255,7 +4255,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{B}",
 			"type": "Enchantment",
-			"collector_number": "255",
+			"collector_number": "256",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4336,11 +4336,11 @@
 			}
 		},
 		{
-			"name": "G uncommon Find the Path",
+			"name": "Find the Path",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "193",
+			"collector_number": "192",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4374,7 +4374,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "249",
+			"collector_number": "250",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4408,7 +4408,7 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{G}{W}{U}",
 			"type": "Enchantment",
-			"collector_number": "231",
+			"collector_number": "232",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4425,7 +4425,7 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{G}{G}{G}{G}{G}",
 			"type": "Creature — Giant Wurm",
-			"collector_number": "198",
+			"collector_number": "194",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4442,7 +4442,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Treefolk",
-			"collector_number": "203",
+			"collector_number": "199",
 			"back": {
 				"name": "",
 				"type": "",
@@ -4629,7 +4629,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{G}",
 			"type": "Creature — Zombie Fungus",
-			"collector_number": "252",
+			"collector_number": "253",
 			"back": {
 				"name": "",
 				"type": "",
@@ -5009,7 +5009,7 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{B}",
 			"type": "Legendary Creature — Zombie Wizard",
-			"collector_number": "238",
+			"collector_number": "239",
 			"back": {
 				"name": "",
 				"type": "",
@@ -5290,19 +5290,19 @@
 	5 Wildman Musician
 	5 Children of the Pyre
 	5 Magma Lizard
-	5 G uncommon World Awake
-	5 G uncommon Fig Fatale
-	5 G un Scout
-	5 G uncommon Floral Foil
-	5 G uncommon Tropical Hydra
+	5 World Awake
+	5 Fig Fatale
+	5 Scout
+	5 Floral Foil
+	5 Tropical Hydra
 	5 Magma Tortise
-	5 G uncommon Barkwolf Pack
-	5 G uncommon Wild Chimera
+	5 Barkwolf Pack
+	5 Wild Chimera
 	5 Rothand Bug
 	5 Transformation Sage
 	5 Winged Enthusiast
 	5 Giant Magus
-	5 WB signpost Duran, the Exile
+	5 Duran, the Exile
 	5 Black Market Vendor
 	5 Empathic Farmer
 	5 Hemopotence
@@ -5311,7 +5311,7 @@
 	5 Grotesquosity
 	5 Inferno
 	5 Horde Horror
-	5 G uncommon Brave the Wilds
+	5 Brave the Wilds
 	5 Rush of Violence
 	5 Creature of Myth
 	5 Horde Summoning
@@ -5323,7 +5323,7 @@
 	5 Sudden Miasma
 	5 Animated Black Pool Muck
 	5 Selfless Student
-	5 G uncommon Find the Path
+	5 Find the Path
 	5 Unfair Trade
 	5 Spawn of the Black Pool
 	5 Crimson Count
