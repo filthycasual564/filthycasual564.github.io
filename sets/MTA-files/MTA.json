@@ -7534,7 +7534,7 @@
         {
             "card_name": "Wall of Secrets",
             "color": "U",
-            "rarity": "common",
+            "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Wall",
             "number": 87,
             "color_identity": "U",
@@ -10111,7 +10111,7 @@
         {
             "card_name": "Haunted Golem",
             "color": "U",
-            "rarity": "uncommon",
+            "rarity": "common",
             "type": "Artifact Creature \u2014 Spirit Construct",
             "number": 58,
             "color_identity": "U",

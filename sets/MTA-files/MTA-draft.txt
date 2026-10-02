@@ -3878,7 +3878,7 @@
 		},
 		{
 			"name": "Wall of Secrets",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Artifact Creature — Wall",
 			"collector_number": "87",
@@ -5199,7 +5199,7 @@
 		},
 		{
 			"name": "Haunted Golem",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact Creature — Spirit Construct",
 			"collector_number": "58",
@@ -5310,6 +5310,7 @@
 	5 Zadomian Ouab
 	5 Grotesquosity
 	5 Inferno
+	5 Wall of Secrets
 	5 Horde Horror
 	5 Brave the Wilds
 	5 Rush of Violence
@@ -5330,7 +5331,6 @@
 	5 Wild Wrathound
 	5 Guardian of Zadoma
 	5 Immortal Snail
-	5 Haunted Golem
 [common(10)]
 	5 Hunting Predator
 	5 Phantasmal Falcon
@@ -5482,7 +5482,6 @@
 	5 Sabertooth
 	5 Sandsoar Gryphon
 	5 Arcane Prayer
-	5 Wall of Secrets
 	5 Freeze Forever
 	5 Young Pixie
 	5 Colossal Squid
@@ -5497,3 +5496,4 @@
 	5 Giant Berzerks
 	5 Odd Gecko
 	5 Perched Lion
+	5 Haunted Golem

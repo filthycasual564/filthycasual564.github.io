@@ -5,7 +5,7 @@
 			<name>MTA</name>
 			<longname>Magic: The Apocalypse</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-01</releasedate>
+			<releasedate>2026-10-02</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -8566,7 +8566,7 @@ Conjure a card named Study into your hand.
 At the beginning of your end step, scry 1.
 ---
 (Back): Island</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/228_front.jpg" num="87a">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/228_front.jpg" num="87a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -8585,7 +8585,7 @@ At the beginning of your end step, scry 1.
 			<name>Island</name>
 			<text>---
 (Front): Wall of Secrets</text>
-			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/228_back.jpg" num="87b">MTA</set>
+			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/228_back.jpg" num="87b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -11574,7 +11574,7 @@ At the beginning of your upkeep, if this card is in your graveyard, you may retu
 			<text>When this creature transforms into a land or dies, return up to one target instant or sorcery spell from your graveyard to your hand.
 ---
 (Back): Island</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/309_front.jpg" num="58a">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/309_front.jpg" num="58a">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -11593,7 +11593,7 @@ At the beginning of your upkeep, if this card is in your graveyard, you may retu
 			<name>Island</name>
 			<text>---
 (Front): Haunted Golem</text>
-			<set rarity="uncommon" picurl="https://filthycasual564.github.io/sets/MTA-files/img/309_back.jpg" num="58b">MTA</set>
+			<set rarity="common" picurl="https://filthycasual564.github.io/sets/MTA-files/img/309_back.jpg" num="58b">MTA</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
